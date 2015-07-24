@@ -1,0 +1,75 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/dev/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: disserta-final.aux
+A level-1 auxiliary file: 0-pre-textuais/siglas.aux
+A level-1 auxiliary file: 2-cap1/cap01.aux
+A level-1 auxiliary file: 3-cap2/cap02.aux
+A level-1 auxiliary file: 4-cap3/cap03.aux
+A level-1 auxiliary file: 5-concl/concl.aux
+The style file: abntex2-alf.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated field_info (elt_size=4) to 15695 items from 5000.
+Database file #1: abntex2-options.bib
+Database file #2: 6-refbib/biblioteca-old.bib
+Warning--I'm ignoring fausto_sociedade_1977's extra "editortype" field
+--line 10068 of file 6-refbib/biblioteca-old.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--campo title vazio em fausto_hgcb1_1977
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.2           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://abntex2.googlecode.com                           |
++---------------------------------------------------------+
+You've used 158 entries,
+            6711 wiz_defined-function locations,
+            2187 strings with 32134 characters,
+and the built_in function-call counts, 124908 in all, are:
+= -- 11127
+> -- 2498
+< -- 1086
++ -- 1892
+- -- 806
+* -- 7969
+:= -- 16593
+add.period$ -- 648
+call.type$ -- 158
+change.case$ -- 1149
+chr.to.int$ -- 273
+cite$ -- 154
+duplicate$ -- 9328
+empty$ -- 10012
+format.name$ -- 3758
+if$ -- 28697
+int.to.chr$ -- 8
+int.to.str$ -- 0
+missing$ -- 2916
+newline$ -- 693
+num.names$ -- 737
+pop$ -- 3415
+preamble$ -- 1
+purify$ -- 488
+quote$ -- 0
+skip$ -- 8432
+stack$ -- 1
+substring$ -- 4680
+swap$ -- 3825
+text.length$ -- 113
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 36
+warning$ -- 1
+while$ -- 984
+width$ -- 0
+write$ -- 2430
+(There were 2 warnings)
