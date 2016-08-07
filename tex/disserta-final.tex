@@ -17,7 +17,7 @@
 	brazil				% o último idioma é o principal do documento
 	]{abntex2}
 \usepackage{lmodern}			% Usa a fonte Latin Modern			
-\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[LGR,T1]{fontenc}		% Selecao de codigos de fonte.
 \usepackage[utf8]{inputenc}	% Codificacao do documento (conversão automática dos acentos)
 \usepackage{lastpage}			% Usado pela Ficha catalográfica
 \usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
@@ -30,12 +30,15 @@
 \usepackage{multirow}			% Mescla linhas em tabelas
 \usepackage{rotating}			% Gira itens
 \usepackage{UFBA}
+\usepackage{subfig}
+\usepackage{float}
 \usepackage{rotfloat}
 \usepackage{pdflscape}		% Gira a página para layout "paisagem"
 \usepackage{makeidx}			% Cria o índice no final
 % \usepackage{multind}			% Cria índices múltiplos no final
 % \usepackage={bibtopic}		% Separa a bibliografia por tópicos
 % \usepackage[style=abnt,backend=biber]{biblatex}
+\usepackage{nomencl} 			% Lista de simbolos
 
 % ---
 % Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
@@ -68,6 +71,7 @@
 	\else
 		Citado #1 vezes nas páginas #2.%
 	\fi}%
+\newcommand{\textgreek}[1]{\begingroup\fontencoding{LGR}\selectfont#1\endgroup}
 % ---
 
 % ---
@@ -164,12 +168,12 @@
 \imprimirfolhaderosto*
 % ---
 
-%\include{0-pre-textuais/fichacatal}
-%\include{0-pre-textuais/folhadeaprova}
-%\include{0-pre-textuais/dedicatoria}
-%\include{0-pre-textuais/agradecimentos}
-%\include{0-pre-textuais/epigrafe}
-%\include{0-pre-textuais/resumos}
+\include{0-pre-textuais/fichacatal}
+\include{0-pre-textuais/folhadeaprova}
+\include{0-pre-textuais/dedicatoria}
+\include{0-pre-textuais/agradecimentos}
+\include{0-pre-textuais/epigrafe}
+\include{0-pre-textuais/resumos}
 
 % ---
 % inserir lista de ilustrações
@@ -216,7 +220,7 @@
 % ----------------------------------------------------------
 \textual
 
-%\include{1-intro/intro}
+\include{1-intro/intro}
 \include{2-cap1/cap01}
 \include{3-cap2/cap02}
 \include{4-cap3/cap03}
@@ -244,7 +248,7 @@
 % Referências bibliográficas
 % ----------------------------------------------------------
 
-%Usando biblatex para várias seções (tem que tirar o abntex2cite)
+% Usando biblatex para várias seções (tem que tirar o abntex2cite)
 
 % \addbibresource{6.refbib/biblioteca.bib}
 % \phantomsection
@@ -308,14 +312,14 @@
 % Apêndices
 % ----------------------------------------------------------
 
-%\include{7-apendices/apendices}
+\include{7-apendices/apendices}
 
 
 % ----------------------------------------------------------
 % Anexos
 % ----------------------------------------------------------
 
-%\include{8-anexos/anexos}
+\include{8-anexos/anexos}
 
 %---------------------------------------------------------------------
 % INDICE REMISSIVO

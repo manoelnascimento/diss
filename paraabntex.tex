@@ -1,0 +1,771 @@
+%% abtex2-modelo-trabalho-academico.tex, v-1.9.1 laurocesar
+%% Copyright 2012-2013 by abnTeX2 group at http://abntex2.googlecode.com/ 
+%%
+%% This work may be distributed and/or modified under the
+%% conditions of the LaTeX Project Public License, either version 1.3
+%% of this license or (at your option) any later version.
+%% The latest version of this license is in
+%%   http://www.latex-project.org/lppl.txt
+%% and version 1.3 or later is part of all distributions of LaTeX
+%% version 2005/12/01 or later.
+%%
+%% This work has the LPPL maintenance status `maintained'.
+%% 
+%% The Current Maintainer of this work is the abnTeX2 team, led
+%% by Lauro César Araujo. Further information are available on 
+%% http://abntex2.googlecode.com/
+%%
+%% This work consists of the files abntex2-modelo-trabalho-academico.tex,
+%% abntex2-modelo-include-comandos and abntex2-modelo-references.bib
+%%
+
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+% abnTeX2: Modelo de Trabalho Academico (tese de doutorado, dissertacao de
+% mestrado e trabalhos monograficos em geral) em conformidade com 
+% ABNT NBR 14724:2011: Informacao e documentacao - Trabalhos academicos -
+% Apresentacao
+% ------------------------------------------------------------------------
+% ------------------------------------------------------------------------
+
+\documentclass[
+	% -- opções da classe memoir --
+	12pt,					% tamanho da fonte
+	openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	twoside,			% para impressão em verso e anverso. Oposto a oneside
+	a4paper,			% tamanho do papel. 
+	% -- opções da classe abntex2 --
+	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	english,				% idioma adicional para hifenização
+	french,				% idioma adicional para hifenização
+	spanish,			% idioma adicional para hifenização
+	brazil				% o último idioma é o principal do documento
+	]{abntex2}
+
+
+
+% ---
+% Pacotes básicos 
+% ---
+\usepackage{lmodern}			% Usa a fonte Latin Modern			
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}	% Codificacao do documento (conversão automática dos acentos)
+\usepackage{lastpage}			% Usado pela Ficha catalográfica
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 		% para melhorias de justificação
+\usepackage{UFBA}
+\usepackage{breakurl}
+% ---
+		
+% ---
+% Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
+% ---
+\usepackage{lipsum}				% para geração de dummy text
+% ---
+
+% ---
+% Pacotes de citações
+% ---
+\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+
+% --- 
+% CONFIGURAÇÕES DE PACOTES
+% --- 
+
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+\renewcommand{\backref}{}
+% Define os textos da citação
+\renewcommand*{\backrefalt}[4]{
+	\ifcase #1 %
+		Nenhuma citação no texto.%
+	\or
+		Citado na página #2.%
+	\else
+		Citado #1 vezes nas páginas #2.%
+	\fi}%
+% ---
+
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{O distrito soteropolitano de Brotas na Primeira República (1889-1930)} 
+\autor{Manoel Maria do Nascimento Júnior}
+\local{Salvador, Bahia}
+\data{2015}
+\orientador{Odete Dourado}
+\instituicao{Universidade Federal da Bahia}
+%\faculdade{Faculdade de Arquitetura}
+%\programa{Programa de Pós-Graduação em Arquitetura e Urbanismo}
+\tipotrabalho{Dissertação (Mestrado)}
+% O preambulo deve conter o tipo do trabalho, o objetivo, 
+% o nome da instituição e a área de concentração 
+\preambulo{Dissertação apresentada ao Programa de Pós-Graduação em Arquitetura e Urbanismo da Faculdade de Arquitetura da UFBA como requisito parcial para obtenção do grau de Mestre em Arquitetura e Urbanismo}
+% ---
+
+
+% ---
+% Configurações de aparência do PDF final
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    		pdfsubject={\imprimirpreambulo},
+	    pdfcreator={LaTeX with abnTeX2},
+		pdfkeywords={urbanismo}{Salvador}{República Velha}{Brotas}{conflitos sociais}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+\makeatother
+% --- 
+
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+%\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+% ---
+% compila o indice
+% ---
+\makeindex
+% ---
+
+\newcommand{\subtitulo}{\bfseries Conflitos sociais na produção, apropriação e uso do seu espaço urbano}
+
+
+% ----
+% Início do documento
+% ----
+\begin{document}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+% \pretextual
+
+% ---
+% Capa
+% ---
+
+
+
+
+\begin{titlingpage}
+\bfseries 
+\centering
+
+\fontsize{16}{18}\selectfont UNIVERSIDADE FEDERAL DA BAHIA
+
+\fontsize{14}{16}\selectfont FACULDADE DE ARQUITETURA
+
+\normalsize PROGRAMA DE PÓS-GRADUAÇÃO EM ARQUITETURA E URBANISMO
+
+
+
+
+
+\vspace{3cm}
+
+\MakeUppercase{\bfseries\fontsize{14}{16}\selectfont\imprimirautor}
+
+\vspace{3cm}
+
+\MakeUppercase{\fontsize{14}{16}\selectfont\bfseries\imprimirtitulo:}
+
+\medskip
+\MakeUppercase{\subtitulo}
+
+\vfill
+
+\normalfont\fontsize{14}{16}\selectfont
+Salvador, Bahia
+
+2015
+
+
+\end{titlingpage}
+
+%%% FOLHA DE ROSTO
+\begin{titlingpage}
+\centering
+\MakeUppercase{\bfseries\fontsize{14}{16}\selectfont\imprimirautor}
+
+\vspace{3cm}
+
+\MakeUppercase{\fontsize{14}{16}\selectfont\bfseries\imprimirtitulo:}
+
+\medskip
+\MakeUppercase{\subtitulo}
+
+\vspace*{\fill}
+
+\normalfont
+
+\normalsize
+
+\begin{flushright}
+	\begin{minipage}{.5\textwidth}
+	\SingleSpacing
+	\imprimirpreambulo
+	
+	\medskip
+	Orientadora: Odete Dourado.
+\end{minipage}%
+\end{flushright}
+\vspace*{\fill}
+%
+
+\vfill
+
+\normalfont\fontsize{14}{16}\selectfont
+
+Salvador, Bahia
+
+2015
+	
+
+\end{titlingpage}
+
+
+\setcounter{page}{2}
+
+
+
+% ---
+
+% ---
+% Inserir a ficha bibliografica
+% ---
+
+% Isto é um exemplo de Ficha Catalográfica, ou ``Dados internacionais de
+% catalogação-na-publicação''. Você pode utilizar este modelo como referência. 
+% Porém, provavelmente a biblioteca da sua universidade lhe fornecerá um PDF
+% com a ficha catalográfica definitiva após a defesa do trabalho. Quando estiver
+% com o documento, salve-o como PDF no diretório do seu projeto e substitua todo
+% o conteúdo de implementação deste arquivo pelo comando abaixo:
+%
+% \begin{fichacatalografica}
+%     \includepdf{fig_ficha_catalografica.pdf}
+% \end{fichacatalografica}
+\begin{fichacatalografica}
+		\vspace*{\fill}					% Posição vertical
+	\hrule							% Linha horizontal
+	\begin{center}					% Minipage Centralizado
+	\begin{minipage}[c]{12.5cm}		% Largura
+	
+	\imprimirautor
+	
+	\hspace{0.5cm} \imprimirtitulo:\subtitulo  / \imprimirautor. --
+	\imprimirlocal, \imprimirdata-
+	
+	\hspace{0.5cm} \pageref{LastPage} p. : il. (algumas color.) ; 30 cm.\\
+	
+	\hspace{0.5cm} \imprimirorientador~\imprimirorientador\\
+	
+	\hspace{0.5cm}
+	\parbox[t]{\textwidth}{\imprimirtipotrabalho~--~\imprimirinstituicao,
+	\imprimirdata.}\\
+	
+	\hspace{0.5cm}
+		1. Conflitos sociais.
+		2. Brotas (distrito de Salvador, Bahia).
+		I. \imprimirorientador~\imprimirorientador.
+		II. \imprimirinstituicao.
+		III. Faculdade de Arquitetura.
+		IV. Título\\ 			
+	
+	\hspace{8.75cm} CDU 02:141:005.7\\
+	
+	\end{minipage}
+	\end{center}
+	\hrule
+\end{fichacatalografica}
+% ---
+
+% ---
+% Inserir errata
+% ---
+% \begin{errata}
+%
+% \end{errata}
+% ---
+
+% ---
+% Inserir folha de aprovação
+% ---
+
+% Isto é um exemplo de Folha de aprovação, elemento obrigatório da NBR
+% 14724/2011 (seção 4.2.1.3). Você pode utilizar este modelo até a aprovação
+% do trabalho. Após isso, substitua todo o conteúdo deste arquivo por uma
+% imagem da página assinada pela banca com o comando abaixo:
+%
+% \includepdf{folhadeaprovacao_final.pdf}
+%
+\begin{folhadeaprovacao}
+
+  \begin{center}
+    \MakeUppercase{\fontsize{14}{16}\selectfont\bfseries\imprimirautor}
+
+    \vspace{3cm}
+ 
+      \MakeUppercase{\fontsize{14}{16}\selectfont\bfseries\imprimirtitulo:}
+      
+      \medskip
+      \MakeUppercase{\subtitulo}
+    \end{center}
+    \bigskip
+    \begin{quote}
+        \imprimirpreambulo
+    \end{quote}
+        \bigskip
+ 
+        
+   \begin{flushright}
+   	Aprovado em \imprimirlocal, INSERIR DATA DE EXAME:
+   \end{flushright}
+
+   \assinatura{\textbf{\imprimirorientador} \\ Orientadora} 
+   \assinatura{\textbf{Fulano} \\ Convidado 1}
+   \assinatura{\textbf{Beltrana} \\ Convidado 2}
+   %\assinatura{\textbf{Professor} \\ Convidado 3}
+   %\assinatura{\textbf{Professor} \\ Convidado 4}
+      
+ \end{folhadeaprovacao}
+% ---
+
+% ---
+% Dedicatória
+% ---
+\begin{dedicatoria}
+   \vspace*{\fill}
+   \centering
+   \noindent
+   \textit{\lipsum[1].} \vspace*{\fill}
+\end{dedicatoria}
+% ---
+
+% ---
+% Agradecimentos
+% ---
+\begin{agradecimentos}
+
+\lipsum[50]
+
+\end{agradecimentos}
+% ---
+
+% ---
+% Epígrafe
+% ---
+\begin{epigrafe}
+    \vspace*{\fill}
+	\begin{flushright}
+		\textit{\lipsum[2]}
+	\end{flushright}
+\end{epigrafe}
+% ---
+
+% ---
+% RESUMOS
+% ---
+
+% resumo em português
+\setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
+\begin{resumo}
+ \lipsum[50]
+ \textbf{Palavras-chaves}: conflitos sociais. espaço urbano. Primeira República (1889-1930).
+\end{resumo}
+
+% resumo em inglês
+\begin{resumo}[Abstract]
+ \begin{otherlanguage*}{english}
+\lipsum[50]
+   \vspace{\onelineskip}
+ 
+   \noindent 
+   \textbf{Key-words}: latex. abntex. text editoration.
+ \end{otherlanguage*}
+\end{resumo}
+
+% resumo em francês 
+\begin{resumo}[Résumé]
+ \begin{otherlanguage*}{french}
+\lipsum[50].
+ 
+   \textbf{Mots-clés}: latex. abntex. publication de textes.
+ \end{otherlanguage*}
+\end{resumo}
+
+% resumo em espanhol
+\begin{resumo}[Resumen]
+ \begin{otherlanguage*}{spanish}
+\lipsum[50].
+  
+   \textbf{Palabras clave}: latex. abntex. publicación de textos.
+ \end{otherlanguage*}
+\end{resumo}
+% ---
+
+% ---
+% inserir lista de ilustrações
+% ---
+% \pdfbookmark[0]{\listfigurename}{lof}
+% \listoffigures*
+% \cleardoublepage
+% ---
+
+% ---
+% inserir lista de tabelas
+% ---
+% \pdfbookmark[0]{\listtablename}{lot}
+% \listoftables*
+% \cleardoublepage
+% ---
+
+% ---
+% inserir lista de abreviaturas e siglas por meio de um \item para cada uma
+% ---
+% \begin{siglas}
+%
+% \end{siglas}
+% ---
+
+% ---
+% inserir lista de símbolos por meio de um \item para cada um
+% ---
+%\begin{simbolos}
+%
+% \end{simbolos}
+% ---
+
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+% ---
+
+
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+
+% ----------------------------------------------------------
+% Introdução (exemplo de capítulo sem numeração, mas presente no Sumário)
+% ----------------------------------------------------------
+\chapter*[Introdução]{Introdução}\label{intro}
+
+\lipsum[50]
+\addcontentsline{toc}{chapter}{Introdução}
+
+Escrever a introdução
+
+
+% ----------------------------------------------------------
+
+
+\chapter[Salvador: sociedade, política e espaço urbano durante a Primeira República (1889-1930)]{Salvador: sociedade, política e espaço\\ urbano durante a Primeira República\\ (1889-1930)}\label{cap:1}
+
+\lipsum[50]
+
+\section[Sociedade]{Sociedade}\label{sec:1.1}
+\lipsum[50]
+\subsection[Caracterização demográfica e econômica]{Caracterização demográfica e econômica}\label{subsec:1.1.1}
+\lipsum[50]
+\subsection{Classes sociais}\label{subsec:1.1.2}
+\lipsum[50]
+\subsubsection{Transição do trabalho escravo ao trabalho livre}\label{subsubsec:1.1.2.1}
+\lipsum[50]
+\subsubsection{Caracterização da estrutura de classes}\label{subsubsec:1.1.2.2}
+\lipsum[50]
+\subsection{Cultura e espaço público}\label{subsec:1.1.3}
+\lipsum[50]
+\section{Política}\label{sec:1.2}
+\lipsum[50]
+\subsection{Instituições de governo}
+\lipsum[50]
+\subsubsection{Instituições municipais}
+\lipsum[50]
+\subsubsection{Instituições estaduais}
+\lipsum[50]
+\subsection{Agentes: os políticos e as grandes empresas}
+\lipsum[50]
+\subsubsection{Sistema partidário e lideranças carismáticas}
+\lipsum[50]
+\subsubsection{A política baiana e a banca internacional}
+\lipsum[50]
+\subsection{Dinâmica}
+\lipsum[50]
+\subsubsection{O severinismo}
+\lipsum[50]
+\subsubsection{O seabrismo}
+\lipsum[50]
+\subsubsection{Depois do seabrismo}
+\lipsum[50]
+\section{Espaço urbano}\label{sec:1.3}
+\lipsum[50]
+\subsection{Distritos urbanos de Salvador}\label{subsec:1.3.1}
+\lipsum[50]
+\subsection{Regime de terras}\label{subsec:1.3.2}
+\lipsum[50]
+\subsection{Agentes de produção do espaço urbano}\label{subsec:1.3.3}
+\lipsum[50]
+\subsubsection{Investidores privados}
+\lipsum[50]
+\subsubsection{Intervenções governamentais}
+\lipsum[50]
+\subsubsection{Intervenções da Intendência}
+\lipsum[50]
+\subsection{Reforma urbana (1906-1924)}
+\lipsum[50]
+\subsubsection{Antecedentes}
+\lipsum[50]
+\subsubsection{Plano de saneamento de Theodoro Sampaio}
+\lipsum[50]
+\subsubsection{Plano de melhoramentos de Alencar Lima}
+\lipsum[50]
+\subsubsection{O porto (1906-1912)}
+\lipsum[50]
+\subsubsection{As reformas do Centro (1912-1916)}
+\lipsum[50]
+\section{Conclusão}\label{sec:1.4}
+\lipsum[50]
+\chapter{Brotas: fronteira do urbano em Salvador}\label{cap:2}
+\lipsum[50]
+\section{Breve histórico e delimitação territorial}\label{sec:2.1}
+\lipsum[50]
+\section{Caracterização socioeconômica}\label{sec:2.2}
+\lipsum[50]
+\section{Esboço de caracterização fundiária}\label{sec:2.3}
+\lipsum[50]
+\section{Usos do espaço}\label{sec:2.4}
+\lipsum[50]
+\section{Como Salvador via o distrito}\label{sec:2.5}
+\lipsum[50]
+\subsection{Imprensa}\label{subsec:2.5.1}
+\lipsum[50]
+\subsubsection{Notícias policiais}\label{subsubsec:2.5.1.1}
+\lipsum[50]
+\subsubsection{Notícias políticas}\label{subsubsec:2.5.1.2}
+
+\lipsum[50]
+
+\subsection{Almanaques}\label{subsec:2.5.2}
+
+\lipsum[50]
+
+\subsubsection{Profissionais residentes}\label{subsubsec:2.5.2.1}
+
+\lipsum[50]
+
+\subsubsection{Serviços}\label{subsubsec:2.5.2.2}
+
+\lipsum[50]
+
+\chapter{Brotas e as reformas urbanas da República Velha}\label{cap:3}
+
+\lipsum[50]
+
+\section{Investimentos públicos}\label{sec:3.1}
+
+\lipsum[50]
+
+\subsection{Esgotamento e abastecimento de água}\label{subsec:3.1.1}
+
+\lipsum[50]
+
+\subsection{Arruamento e pavimentação}\label{subsec:3.1.2}
+
+\lipsum[50]
+
+\subsection{Iluminação pública}\label{subsec:3.1.3}
+
+\lipsum[50]
+
+\subsection{Transporte público}\label{subsec:3.1.4}
+
+\lipsum[50]
+
+\subsection{Cemitério}\label{subsec:3.1.5}
+
+\lipsum[50]
+
+\subsection{Serviços de saúde}\label{subsec:3.1.6}
+
+\lipsum[50]
+
+\subsection{Escolas}\label{subsec:3.1.7}
+
+\lipsum[50]
+
+\section{Ação privada}\label{sec:3.2}
+
+\lipsum[50]
+
+\subsection{Proprietários}\label{subsec:3.2.1}
+
+\lipsum[50]
+
+\subsection{Loteamentos}\label{subsec:3.2.2}
+
+\lipsum[50]
+
+\subsection{Construções, ampliações, reformas}\label{subsec:3.2.3}
+
+\lipsum[50]
+\cite{CARNEIRO1954}
+
+\section{Ação recíproca: Brotas e as reformas, as reformas e Brotas}\label{sec:3.3}
+
+\lipsum[50]
+\cite{AZEVEDO1969}
+
+\subsection{Houve influência da produção do espaço em Brotas sobre as reformas urbanas de Salvador?}\label{subsec:3.3.1}
+
+\lipsum[50]
+\cite{AGUIAR1957}
+
+\subsection[Houve influência da produção do espaço pelas reformas de J. J. Seabra sobre Brotas?]{Houve influência da produção do espaço pelas reformas de J. J. Seabra sobre Brotas?}\label{subsec:3.3.2}
+
+\lipsum[50]
+\cite{AGUIAR1958}
+
+% ----------------------------------------------------------
+% Finaliza a parte no bookmark do PDF
+% para que se inicie o bookmark na raiz
+% e adiciona espaço de parte no Sumário
+% ----------------------------------------------------------
+\phantompart
+
+% ---
+% Conclusão (outro exemplo de capítulo sem numeração e presente no sumário)
+% ---
+\chapter*[Conclusão]{Conclusão}\label{concl}
+
+\lipsum[50]
+
+\addcontentsline{toc}{chapter}{Conclusão}
+
+Escrever a conclusão
+
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+\postextual
+% ----------------------------------------------------------
+
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+\bibliography{biblioteca}
+
+% ----------------------------------------------------------
+% Glossário
+% ----------------------------------------------------------
+%
+% Consulte o manual da classe abntex2 para orientações sobre o glossário.
+%
+%\glossary
+
+% ----------------------------------------------------------
+% Apêndices
+% ----------------------------------------------------------
+
+% ---
+% Inicia os apêndices
+% ---
+\begin{apendicesenv}
+
+% Imprime uma página indicando o início dos apêndices
+\partapendices
+
+% ----------------------------------------------------------
+\chapter{Tipo de apêndice}
+% ----------------------------------------------------------
+
+\lipsum[50]
+
+% ----------------------------------------------------------
+\chapter{Tipo de apêndice}
+% ----------------------------------------------------------
+\lipsum[55-57]
+
+\end{apendicesenv}
+% ---
+
+
+% ----------------------------------------------------------
+% Anexos
+% ----------------------------------------------------------
+
+% ---
+% Inicia os anexos
+% ---
+\begin{anexosenv}
+
+% Imprime uma página indicando o início dos anexos
+\partanexos
+
+% ---
+\chapter{Tipo de documento}
+\lipsum[50]
+% ---
+
+
+
+% ---
+\chapter{Tipo de figura}
+\lipsum[50]
+% ---
+
+
+
+% ---
+\chapter{Tipo de facsímile}
+\lipsum[50]
+% ---
+
+
+
+\end{anexosenv}
+
+%---------------------------------------------------------------------
+% INDICE REMISSIVO
+%---------------------------------------------------------------------
+\phantompart
+\printindex
+%---------------------------------------------------------------------
+
+\end{document}
