@@ -1,0 +1,24 @@
+% ---
+% Epígrafe
+% ---
+
+\begin{epigrafe}
+    \vspace*{\fill}
+	\begin{flushright}
+		\textit{O conflito é a causa e o arquiteto de todas as coisas. De uns faz deuses, de outros homens, de uns escravos, de outros cidadãos.}
+		
+		\textbf{Heráclito de Éfeso}
+	\end{flushright}
+
+	\begin{flushright}
+		\textit{Gostaria de dizer coisas mais simples e mais abertas, mas falta-me uma das duas condições necessárias: confiar no futuro ou ser completamente desiludido.}
+		
+		\textbf{Artur Castro Neves}
+	\end{flushright}
+	\begin{flushright}
+		\textit{Curiosa concepção de cidade onde uma freguesia de povoamento esparso, caracterizada por funções econômicas tipicamente rurais, e isto até meados do século XIX, acede à condição de núcleo urbano!}
+		
+		\textbf{Kátia M. de Queirós Mattoso}
+	\end{flushright}
+\end{epigrafe}
+% ---

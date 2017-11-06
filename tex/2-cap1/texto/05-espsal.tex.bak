@@ -1,0 +1,115 @@
+\section{Espaço urbano soteropolitano em momento de reformas}\label{sec:1.4}
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{2-cap1/complementos/mapas/1855weyll.eps} 
+\caption{``Mappa topographica da cidade de S. Salvador e seus subúrbios'', elaborada pelo engenheiro alemão Carlos Augusto Weyll e posteriormente datada como sendo de 1851. Ainda é a mais detalhada fonte cartográfica para o estudo de Salvador no período que vai até os anos 1930. \textbf{Fonte:} \citeonline{weyll_mappa_1851}.}
+\end{figure}
+
+Em seguida, esta sociedade será relacionada à produção, uso e apropriação do espaço urbano onde está situada mediante uma análise do grau de urbanização dos dez distritos urbanos \cite{NASCIMENTO2007, VASCONCELOS2002}, do regime de uso e apropriação da terra então vigentes \cite{CEDURB1978}, dos agentes públicos e privados de produção do espaço urbano e das reformas urbanas \cite{cardoso_vilas_1991, CUNHA2011}, sejam as projetadas, sejam as efetivamente executadas.
+
+Se o fortíssimo influxo populacional e o dinamismo econômico do século XIX resultaram na percepção da necessidade de mudanças na malha urbana de Salvador e na efetiva realização de reformas, como a construção do Teatro São João e do Passeio Público (1812), o código de posturas de 1844, o calçamento do Largo do Teatro (1846), a abertura da Rua da Vala (1849), a construção do Campo Grande (1851), o início do abastecimento de água pelos chafarizes da Companhia do Queimado (1852), a instalação de uma malha viária de bondes \cite{fernandesgomes1992, fernandessampaiogomes1999,NASCIMENTO2007,sampaio_50_2005}, elas estiveram aquém do necessário.
+
+\subsection{Distritos de Salvador}\label{subsec:1.4.1}
+
+Salvador era subdividida, no período estudado, nos distritos urbanos de \textit{Brotas} (fundada em 1718), \textit{Conceição} (f. 1623), \textit{Mares} (f. 1870), \textit{Nazaré} (f. 1897), \textit{Paço} (f. 1718), \textit{Penha} (f. 1745), \textit{Pilar} (f. 1720), \textit{Santana} (1679), \textit{Santo Antônio }(1646), \textit{São Pedro Velho} (1679), \textit{Sé} (f. 1549) e \textit{Vitória} (f. 1561) \cite[259-307]{VASCONCELOS2002}, e nos distritos suburbanos de \textit{Cotegipe} (f. 1608), \textit{Itapuã} (f. 1608), \textit{Maré} (f. 1832), \textit{Matoim} (f. 1609, hoje integrante do município de Candeias), \textit{Paripe} (f. 1608), \textit{Passé} (f. 1608, hoje integrante do município de Candeias) e \textit{Pirajá} (f. 1608) \cite[p.~53-62]{NASCIMENTO2007}. O nome, tamanho, limites e outras informações sobre os distritos foram estabelecidas por uma Lei Municipal de 05 de agosto de 1892.
+
+Os únicos entre os censos mais antigos que permitem destrinchar a população soteropolitana por distrito são os de 1872 e 1920. Desta forma, é possível desenhar um ``antes'' e um ``durante'' dos distritos soteropolitanos no período estudado. A conhecida inexistência de um censo de 1930 e a falta dos dados distritais no censo de 1940 não permitem avançar muito além desta data. 
+
+São de especial interesse para esta pesquisa:
+
+\begin{itemize}
+\item O surpreendente crescimento populacional do distrito rural de Pirajá (461,47\%), maior que o crescimento de qualquer outro distrito soteropolitano, seja ele rural ou urbano. É possível, a julgar pelo fato de o EPUCS, décadas depois, haver projetado concentrar a moradia operária neste distrito \cite{PREFEITURA1978,sampaio_formas_1999}, e pela proximidade dos empreendimentos industriais da península de Itapagipe, levantar a hipótese de que este crescimento tenha sido majoritariamente causado pela \textit{moradia operária} \cite{cardoso_vilas_1991}.
+\item O salto populacional dos distritos de Mares (283,45\%), Penha (242,48\%) e Santo Antônio (242,15\%), refletindo, ao que indicam os dados sobre a distribuição da moradia proletária entre os distritos da cidade \cite[p.~126]{cardoso_vilas_1991}, o crescimento populacional no entorno dos empreendimentos industriais e o surgimento da \textit{moradia operária} tanto como demanda quanto como modelo de atuação do mercado imobiliário.
+\item O vertiginoso crescimento populacional da ordem de 354,28\% no distrito de Brotas, maior expansão demográfica entre todos os distritos urbanos de Salvador no período, a ser tratado com maior detalhe nos dois capítulos seguintes.
+\item O acelerado crescimento populacional no distrito da Vitória (264,65\%), que reflete o desenvolvimento de áreas populares como a Fazenda Garcia (405 construções entre 1889 e 1930) e Federação (93 construções), bem como a expansão da cidade rumo às áreas nobres do Campo Grande (24 construções), Vitória (74 construções), Graça/Barra Avenida (145 construções) e Barra (225 construções) (ALMEIDA, 1997, p. 295).
+\item A relativa estagnação populacional dos distritos de São Pedro (26,61\%) e Pilar (21,11\%) quando comparado seu crescimento populacional com o dos demais. 
+\item A completa estagnação populacional do distrito da Sé (1,97\%), com variação de 297 pessoas nos quarenta e oito anos que separam os dois censos empregues (comparativamente, Brotas recebeu acréscimo de 18.031 pessoas no mesmo período).
+\item A perda de população no distrito de Santana (-12,35\%), explicada pelo desmembramento do distrito de Nazaré.
+\item A perda de população no distrito da Conceição (-16,41\%), refletindo mudanças no perfil do seu uso.
+\item A concentração do crescimento populacional nos distritos urbanos industriais (Mares, Penha, Santo Antônio) ou nos distritos semi-urbanos, compostos por um setor urbano e um setor rural (Santo Antônio, Brotas) ou nos distritos rurais fronteiriços com os distritos industriais (Pirajá), reflexos simultaneamente de pequena mudança no perfil de trabalho da população soteropolitana e de esgotamento da malha urbana consolidada, já incapaz de suportar o acréscimo populacional.
+\end{itemize}
+
+A \autoref{tab:evodisal1872} e a \autoref{tab:evodisal1920}, que sintetizam os dados destes dois censos para a população dos distritos soteropolitanos, permitem comparar sua evolução populacional e observar as diferenças no desenvolvimento dos diferentes distritos. 
+
+\input{2-cap1/complementos/tabelas/tabela-popsaldist-1872}
+\input{2-cap1/complementos/tabelas/tabela-popsaldist-1920}
+
+\subsection{Regime de terras e densidade domiciliar}\label{subsec:1.4.2}
+
+Não há política urbana sem política fundiária, e não há política fundiária sem um regime de terras correspondente. No caso soteropolitano, a ocupação da terra se dava de maneira relativamente simples, dada a abundância do espaço e sua mercantilização quase inexistente \cite[p.~25]{MOURA1990}; o complicado era a documentação, o registro, a titulação da posse ou da propriedade.
+
+As terras de Salvador pertenciam basicamente a algumas ordens religiosas, a poucos proprietários individuais e à Prefeitura \cite{CEDURB1978}; sendo assim, era comum que o soteropolitano, mesmo quando proprietário de sua casa, fosse mero ``foreiro'', ``rendeiro'' ou ``morador'' de terras de terceiros \cite[p.~139]{BRANDAO1980}. Embora houvesse proibições legais à construção de cortiços pelo menos desde a Postura nº 39 do Código de Posturas Municipais de 1921 \cite{PREFEITURA1921}, somente em 1944, no contexto da atuação do EPUCS foi promulgada a primeira \textit{lei anti-cortiço} soteropolitana (Decreto-lei 347, de 06 out. 1944).
+
+Salvador, com 72,21 prédios por $km^{2}$ em 1920, era uma das capitais com maior densidade de prédios por metros quadrado, ultrapassada apenas por Fortaleza (318,09 prédios/$km^{2}$), Recife (231,25 prédios/$km^{2}$), Niterói (162,09 prédios//$km^{2}$) e São Paulo (82,16 prédios//$km^{2}$) \cite[p.~XV]{brasil_censo46_1920}.
+
+% \input{2-cap1/complementos/tabelas/tabela-estpredomsal-1872-1920}
+
+No que diz respeito à densidade domiciliar, vista a questão distrito a distrito através da \autoref{tab:domsaldist1-1920} e da \autoref{tab:domsaldist2-1920}, fica evidente quanto aos distritos urbanos que:
+
+\begin{itemize}
+ \item Brotas , tinha a sexta maior taxa de domicílios desocupados (4,09\%), a quarta maior entre os distritos urbanos.
+ \item Conceição 	
+ \item Mares
+ \item Nazaré
+ \item Paço
+ \item Penha , tinha a terceira maior taxa de domicílios desocupados entre todos os distritos (5,08\%), a maior entre os distritos urbanos.
+ \item Pilar
+ \item Santana
+ \item Santo Antônio era o distrito mais populoso da cidade, seguido por Vitória e Brotas, mas a diferença de população entre Santo Antônio e Brotas era maior que a soma das populações dos distritos de Pirajá e Santana. A enorme extensão de um distrito composto por uma zona rural e uma zona urbana, entretanto, conferia-lhe baixíssima densidade predial, na verdade a menor entre todos os distritos urbanos. Tinha o maior número de domicílios particulares desocupados, mas sua proporção no conjunto de domicílios do distrito era menor que a média soteropolitana.
+ \item São Pedro
+ \item Sé
+ \item Vitória
+\end{itemize} 	
+
+Já quanto aos distritos rurais, os resultados do Recenseamento 1920 indicam que:
+ 
+\begin{itemize}
+ \item Cotegipe
+ \item Itapuã
+ \item Maré , tinha a segunda maior taxa de domicílios desocupados entre todos os distritos.
+ \item Matoim
+ \item Paripe , tinha a maior taxa de domicílios desocupados entre todos os distritos.
+ \item Passé
+ \item Pirajá, em que pese ser um distrito suburbano, era mais populoso que os distritos de Santana, Sé, Mares, Nazaré, Pilar, Paço e Conceição, mas tinha a segunda menor densidade domiciliar do município.
+\end{itemize}
+
+\input{2-cap1/complementos/tabelas/tabela-domsaldist1-1920}
+\input{2-cap1/complementos/tabelas/tabela-domsaldist2-1920}
+
+\subsection{Intervenções no espaço urbano e seus agentes}\label{subsec:1.4.3}
+
+\begin{figure}[!htp]
+\centering
+\includegraphics[width=1\textwidth]{2-cap1/complementos/mapas/1894moralesdelosrios.eps} 
+\caption{``Planta da cidade de São Salvador, capital do Estado federado da Bahia'', elaborada em 1894 por Afonso Morales de Los Rios, arquiteto-engenheiro participante, em 1893, de concurso para realização de obras de esgotamento em Salvador. Conforme observação da profª Odete Dourado, quando vista mais de perto, a planta mostra representação equivocada da localização do Largo do Teatro (atual Praça Castro Alves). \textbf{Fonte:} \citeonline{morales_planta_1894}.}
+\end{figure}
+
+\subsubsection{Plano de saneamento de Theodoro Sampaio (1904)}\label{subsubsec:1.4.3.1}
+
+Como decorrência da encampação pela Intendência Municipal dos serviços, sempre precários, da Companhia do Queimado, foi aberta em 8 de novembro de 1904 concorrência para um plano de melhoramentos no setor, vencida pelo engenheiro baiano Theodoro Sampaio, único a apresentar proposta \cite[150]{gordilhobarbosa_eau_2004}. O trabalho foi financiado por um empréstimo feito pelo município de Salvador junto ao Banque de l'Union Parisienne no valor de 25 milhões de francos \cite[p.~150]{gordilhobarbosa_eau_2004}, e marcou o início de um processo de intervenção planificada e efetiva do poder público sobre o setor de saneamento de Salvador \cite[p.~150]{gordilhobarbosa_eau_2004} 
+
+Os trabalhos foram parcialmente inaugurados em 1907, e abrangiam reformas e prolongamentos da rede de distribuição, assim como os primeiros 27km de redes de esgoto da cidade \cite[p.~151]{gordilhobarbosa_eau_2004}. O trabalho foi interrompido, segundo o próprio Theodoro Sampaio, porque o intendente municipal da época (Antônio Victor de Araújo Falcão) interrompeu o pagamento e o fornecimento de materiais, paralisando os trabalhos previstos, e passou a contratar terceiros para a canalização provisória dos esgotos da cidade \cite[p.~152]{gordilhobarbosa_eau_2004}.
+
+\subsubsection{Plano de melhoramentos de Alencar Lima (1910)}\label{subsubsec:1.4.3.2}
+
+Quando apresentou seu ``Plano geral de melhoramentos em parte da cidade do Salvador'' à Intendência Municipal de Salvador, em 1910, o engenheiro Jerônimo Teixeira de Alencar Lima já era um dos sócios da Estrada de Ferro Central da Bahia, junto com Austricliano Honório de Carvalho \cite{souza_trabalholivre_2011}, e comprara o Lloyd Brasileiro em 1903, para depois vendê-lo ao Governo da Bahia e arrendá-lo novamente \cite[p.~220]{CUNHA2011}; não era, por assim dizer, um neófito no ramo da prestação de serviços públicos, tampouco desconhecido no cenário político baiano.
+
+Em resumo apertado, o projeto de Alencar Lima consistia em:
+
+\begin{itemize}
+\item Abertura da avenida Sete de Setembro;
+\item Alargamento de ruas, em especial da avenida Carlos Gomes;
+\item Construção de novas casas seguindo os critérios de higiene, arte e incombustibilidade;
+\item Ajardinamento de praças e arborização de ruas;
+\item Recomendação ao uso preferencial do concreto armado nas novas construções;
+\end{itemize}
+
+O projeto visava os distritos da Vitória e de São Pedro, escolhidos explicitamente em virtude de serem zonas ``capazes de compensar-lhes o capital empregado'' \cite[p.~95]{CUNHA2011}. 
+
+\subsubsection{O porto (1906-1912)}\label{subsubsec:1.4.3.3}
+
+
+
+\subsubsection{As reformas do Centro (1912-1916)}\label{subsubsec:1.4.3.4}
+

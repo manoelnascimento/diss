@@ -1,0 +1,215 @@
+\documentclass[
+	% -- opções da classe memoir --
+	12pt,					% tamanho da fonte
+	openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	oneside,			% para impressão em verso e anverso. Oposto a oneside
+	a4paper,			% tamanho do papel. 
+	final,				% Use "draft" para compilar mais rápido e "final" para a versão final.
+	% -- opções da classe abntex2 --
+	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	english,				% idioma adicional para hifenização
+	french,				% idioma adicional para hifenização
+	spanish,			% idioma adicional para hifenização
+	brazil				% o último idioma é o principal do documento
+	]{abntex2}
+\usepackage{lmodern}			% Usa a fonte Latin Modern			
+\usepackage[LGR,T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}	% Codificacao do documento (conversão automática dos acentos)
+\usepackage{lastpage}			% Usado pela Ficha catalográfica
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 		% Para melhorias de justificação
+\usepackage{longtable}		% Usado com "tabu" para criar tabelas em múltiplas páginas
+\usepackage{tabu}				% Usado com "longtable" para criar tabelas em múltiplas páginas
+\usepackage{array}				% Usado para alguns alinhamentos de células em tabelas
+\usepackage{multirow}			% Mescla linhas em tabelas
+\usepackage{rotating}			% Gira itens
+\usepackage{UFBA}
+\usepackage{subfig}
+\usepackage{float}
+\usepackage{morefloats}
+\usepackage{rotfloat}
+\usepackage{pdflscape}		% Gira a página para layout "paisagem"
+\usepackage{makeidx}			% Cria o índice no final
+% \usepackage{multind}			% Cria índices múltiplos no final
+% \usepackage{bibtopic}		% Separa a bibliografia por tópicos
+% \usepackage[style=abnt,backend=biber]{biblatex}
+\usepackage{nomencl} 			% Lista de simbolos
+
+% ---
+% Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
+% ---
+\usepackage{lipsum}				% para geração de dummy text
+% ---
+
+% ---
+% Pacotes de citações
+% ---
+ \usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+ \usepackage[alf,abnt-full-initials=yes,abnt-repeated-author-omit=yes,abnt-emphasize=bf,abnt-missing-year=sd]{abntex2cite}	% Citações padrão ABNT
+
+% --- 
+% CONFIGURAÇÕES DE PACOTES
+% --- 
+
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+ \renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+\renewcommand{\backref}{}
+% Define os textos da citação
+ \renewcommand*{\backrefalt}[4]{
+	\ifcase #1 %
+		Nenhuma citação no texto.%
+	\or
+		Citado na página #2.%
+	\else
+		Citado #1 vezes nas páginas #2.%
+	\fi}%
+\newcommand{\textgreek}[1]{\begingroup\fontencoding{LGR}\selectfont#1\endgroup}
+% ---
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{O distrito soteropolitano de Brotas na Primeira República (1889-1930): conflitos sociais na produção, apropriação e uso do seu espaço urbano}
+\autor{Manoel Maria do Nascimento Júnior}
+\local{Salvador, Bahia}
+\data{2016}
+\orientadora{Odete Dourado}
+\instituicao{Universidade Federal da Bahia}
+\faculdade{Faculdade de Arquitetura}
+\programa{Programa de Pós-Graduação em Arquitetura e Urbanismo}
+\tipotrabalho{Dissertação (Mestrado)}
+% O preambulo deve conter o tipo do trabalho, o objetivo, 
+% o nome da instituição e a área de concentração 
+\preambulo{Dissertação apresentada ao Programa de Pós-Graduação em Arquitetura e Urbanismo da Faculdade de Arquitetura da UFBA como requisito parcial para obtenção do grau de Mestre em Arquitetura e Urbanismo}
+% ---
+
+
+% ---
+% Configurações de aparência do PDF final
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    		pdfsubject={\imprimirpreambulo},
+	    pdfcreator={LaTeX with abnTeX2},
+		pdfkeywords={urbanismo}{Salvador}{República Velha}{Brotas}{conflitos sociais}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4,
+		breaklinks = true
+}
+\makeatother
+% --- 
+
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+% ---
+% compila o indice
+% ---
+%\makeindex
+% ---
+
+% ---
+% Configurações de arquivos de imagem
+% ---
+\DeclareGraphicsExtensions{.pdf,.png,.jpg,.gif,.tif,.tiff,.jpeg}
+% ---
+
+% ----
+% Início do documento
+% ----
+
+
+\begin{document}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+%\pretextual
+
+% ---
+% Capa
+% ---
+%\imprimircapa
+% ---
+
+% ---
+% Folha de rosto
+% (o * indica que haverá a ficha bibliográfica)
+% ---
+%\imprimirfolhaderosto*
+% ---
+
+\begin{table}[!htp]
+\IBGEtab{
+\caption{Número de imóveis por localidade da freguesia de Brotas (1858-1862)}
+\label{tab:livreg1858-1862}
+}{
+\begin{tabular}{ccc}
+\toprule
+Localidade	&Imóveis (1858-1862)	&\% do total	&\\
+\midrule \midrule
+Acupe	&17	&12,06\%	&\\
+Alagôa	&1	&0,71\%	&\\
+Armação	&1	&0,71\%	&\\
+Beiju	&2	&1,42\%	&\\
+Brotas	&1	&0,71\%	&\\
+Bulhões	&1	&0,71\%	&\\
+Campinas	&7	&4,96\%	&\\
+Candeal	&3	&2,13\%	&\\
+Cruz da Redenção	&4	&2,84\%	&\\
+Cruz das Almas / Estrada Brotas-Rio Vermelho	&7	&4,96\%	&\\
+Engenho Velho / Boa Vista	&6	&4,26\%	&\\
+Estrada da União	&2	&1,42\%	&\\
+Estrada de Brotas	&13	&9,22\%	&\\
+Largo de Brotas	&5	&3,55\%	&\\
+Lucaia	&1	&0,71\%	&\\
+Matatu	&50	&35,46\%	&\\
+Pitangueiras	&2	&1,42\%	&\\
+Pituba	&1	&0,71\%	&\\
+Quinta das Beatas	&3	&2,13\%	&\\
+Rua da Vala	&1	&0,71\%	&\\
+Sangradouro	&7	&4,96\%	&\\
+Santa Cruz	&1	&0,71\%	&\\
+Torre	&2	&1,42\%	&\\
+Ubarana	&2	&1,42\%	&\\
+Várzea/Engenho de Santo Antônio	&1	&0,71\%	&\\
+\midrule
+TOTAL	&141	&100,00\%	&\\
+\bottomrule
+\end{tabular} 
+}{
+\fonte{Elaboração do autor, com base em \textbf{BR BAAPB}, fundo Colonial, série Registros de Terra, livro 4675). }
+}
+\end{table}
+
+\end{document}
