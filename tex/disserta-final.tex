@@ -30,6 +30,7 @@
 \usepackage{multirow}			% Mescla linhas em tabelas
 \usepackage{rotating}			% Gira itens
 \usepackage{UFBA}
+\usepackage{verse}
 \usepackage{subfig}
 \usepackage{float}
 \usepackage{morefloats}
@@ -76,12 +77,19 @@
 % ---
 
 % ---
+% Configurações do pacote ferse
+\newcommand{\attrib}[1]{%
+\nopagebreak{\raggedleft\footnotesize #1\par}}
+\renewcommand{\poemtitlefont}{\normalfont\large\itshape\centering}
+% ---
+
+% ---
 % Informações de dados para CAPA e FOLHA DE ROSTO
 % ---
 \titulo{O distrito soteropolitano de Brotas na Primeira República (1889-1930): conflitos sociais na produção, apropriação e uso do seu espaço urbano}
 \autor{Manoel Maria do Nascimento Júnior}
 \local{Salvador, Bahia}
-\data{2016}
+\data{2018}
 \orientadora{Odete Dourado}
 \instituicao{Universidade Federal da Bahia}
 \faculdade{Faculdade de Arquitetura}
