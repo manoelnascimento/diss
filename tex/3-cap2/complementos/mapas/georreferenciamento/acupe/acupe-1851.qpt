@@ -1,0 +1,58 @@
+<Composer title="Acupe (1851)" visible="1">
+ <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="300" paperWidth="155.3" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="200.036" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
+  <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+   <layer pass="0" class="SimpleFill" locked="0">
+    <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+    <prop k="color" v="255,255,255,255"/>
+    <prop k="joinstyle" v="miter"/>
+    <prop k="offset" v="0,0"/>
+    <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+    <prop k="offset_unit" v="MM"/>
+    <prop k="outline_color" v="0,0,0,255"/>
+    <prop k="outline_style" v="no"/>
+    <prop k="outline_width" v="0.26"/>
+    <prop k="outline_width_unit" v="MM"/>
+    <prop k="style" v="solid"/>
+   </layer>
+  </symbol>
+  <ComposerPicture resizeMode="0" svgBorderWidth="0" pictureRotation="252" pictureWidth="13.7261" svgFillColor="0,0,0,255" svgBorderColor="255,255,255,255" northMode="0" file="/usr/share/qgis/svg/arrows/NorthArrow_02.svg" northOffset="0" pictureHeight="21.8267" mapId="-1" anchorPoint="0">
+   <ComposerItem pagey="6.3" page="1" id="Seta" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="6.3" y="6.3" visibility="1" zValue="10" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="25" outlineWidth="0.3" excludeFromExports="0" uuid="{d3fa5283-fd77-43e9-8c82-3bdbd50c931d}" height="20" itemRotation="0" frame="true" pagex="6.3">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerPicture resizeMode="0" svgBorderWidth="0.2" pictureRotation="0" pictureWidth="150.739" svgFillColor="255,255,255,255" svgBorderColor="0,0,0,255" northMode="0" file="/home/fernanda/Mestrado/arquitetura/diss/tex/3-cap2/complementos/mapas/georreferenciamento/acupe/acupe-1851.jpg" northOffset="0" pictureHeight="195.736" mapId="-1" anchorPoint="0">
+   <ComposerItem pagey="2.3" page="1" id="Acupe1851:figura" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="2.3" y="2.3" visibility="1" zValue="2" background="false" transparency="0" frameJoinStyle="bevel" blendMode="0" width="151" outlineWidth="0.3" excludeFromExports="0" uuid="{716a9586-16cc-4f92-a66b-88dfe8bb5140}" height="195.736" itemRotation="0" frame="true" pagex="2.3">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <dataDefinedSource expr="" field="" active="false" useExpr="true"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerPicture>
+  <ComposerShape shapeType="1" cornerRadius="0">
+   <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+    <layer pass="0" class="SimpleFill" locked="0">
+     <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="color" v="255,255,255,255"/>
+     <prop k="joinstyle" v="miter"/>
+     <prop k="offset" v="0,0"/>
+     <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+     <prop k="offset_unit" v="MM"/>
+     <prop k="outline_color" v="0,0,0,255"/>
+     <prop k="outline_style" v="solid"/>
+     <prop k="outline_width" v="0.3"/>
+     <prop k="outline_width_unit" v="MM"/>
+     <prop k="style" v="solid"/>
+    </layer>
+   </symbol>
+   <ComposerItem pagey="0.15" page="1" id="Quadro de fundo" lastValidViewScaleFactor="-1" positionMode="0" positionLock="false" x="0.15" y="0.15" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="155" outlineWidth="0.3" excludeFromExports="0" uuid="{9fa4df11-4d49-4cdd-b68b-d0ae288aeb7a}" height="199.736" itemRotation="0" frame="false" pagex="0.15">
+    <FrameColor alpha="255" red="0" blue="0" green="0"/>
+    <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+    <customproperties/>
+   </ComposerItem>
+  </ComposerShape>
+  <customproperties/>
+ </Composition>
+</Composer>
