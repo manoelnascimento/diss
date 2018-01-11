@@ -1,0 +1,190 @@
+Pontos para georreferenciamento do mapa de Weyll (1851)
+
+Datum: EPSG 4326 do Open Street Maps (alguns com datum errado copiado do Google Maps estão com a ordenada antes da abscissa)
+
+Não esquecer: o maior é a abscissa (X) e o menor é a ordenada (Y)
+
+ACUPE
+0 - D. João VI encontra Monsenhor Antônio Rosa: -38.481887,-12.988832
+1 - Esquina da Waldemar Falcão com a D João VI: -38.484435,-12.991194
+2 - Waldemar Falcão encontra Irmã Dulce: -38.487099,-12.994992
+3 - Waldemar Falcão encontra Bons Ares: -38.484681,-12.992953
+4 - Waldemar Falcão encontra Costa e Silva: -38.484361,-12.991550
+5 - D. João VI encontra Dezenove de Maio: -38.48688,-12.99116
+6 - D. João VI encontra Comendador Pereira da Silva: -38.489081,-12.990091
+7 - D. João VI encontra Copacabana: -38.491925,-12.989618
+8 - Esquina do Acupe com D João VI: -38.492613,-12.989072
+9 - Acupe encontra N. S. Guadalupe: -38.49313,-12.98997
+10 - Curva do Acupe antes de Padre Elói: -38.492923,-12.992138
+11 - Acupe encontra Dr. José Carlos/Caetano: -38.492170,-12.993390
+12 - D. João VI encontra Padre Daniel Lisboa: -38.492583,-12.987297
+13 - D. João VI encontra Urbino de Aguiar: -38.493187,-12.986596
+14 - D. João VI encontra Nossa Senhora de Brotas: -38.493562,-12.986424
+
+AMARALINA
+Esquina da Waldemar Falcão com a D João VI: -38.48445,-12.99121
+Rua Monte Conselho: -38.487242,-13.015611
+Largo da Cruz da Redenção: -38.478642,-12.988246
+Waldemar Falcão encontra Lucaia: -38.491206,-13.007054
+Waldemar Falcão encontra Estácio Gonzaga: -38.489930,-13.002429
+Waldemar Falcão encontra Correia de Menezes: -38.489340,-13.000671
+Waldemar Falcão encontra Piratancará: -38.488126,-12.998939
+Waldemar Falcão encontra Alba Longa: -38.488742,-12.997001
+Waldemar Falcão encontra Irmã Dulce: -38.487099,-12.994992
+
+BOA VISTA - SANGRADOURO
+Pé da ladeira dos Galés: -38.50083,-12.97608
+Esquina da Boa Vista: -38.499217,-12.982143
+Largo do Paranhos: -38.496006,-12.977356
+Cruzamento Daniel Lisboa/Raul Leite: -38.492322,-12.973595
+Esquina do Acupe com D João VI: -38.492599,-12.989106
+Cardeal da Silva 1: -38.505878,-12.997082
+Cardeal da Silva 2: -38.501187,-13.002258
+Cruzamento Ogunjá/Vasco da Gama: -38.49633,-12.99520
+Início da Vasco da Gama: -38.507859,-12.988515
+
+CAMPINAS
+Largo da Cruz da Redenção: -38.478642,-12.988246
+Rua Campinas de Brotas: -38.479028,-12.988181
+Curva da Teixeira Barros: -38.47725,-12.98564
+Curva da Cruz da Redenção: -38.47702,-12.99239
+Ponte da Cruz da Redenção: -38.47642,-12.99572
+Ponte da Teixeira Barros: -38.46976,-12.98873
+Borda da D. João VI: -38.48057,-12.98848
+
+ESTRADA DOIS DE JULHO
+0 - Início da Vasco da Gama: -38.507859,-12.988515
+1 - Foz do São Pedro: -38.506771,-12.990845
+2 - Cruzamento Ogunjá/Vasco da Gama: -38.49633,-12.99520
+3 - Foz do Lucaia: -38.48907,-13.01443
+4 - Cardeal da Silva encontra Vale da Muriçoca na frente da UCSal: -38.501187,-13.002258
+5 - Cardeal da Silva encontra Jardim Federação: -38.505878,-12.997082
+6 - Ponta da Caetano Moura: -38.50983,-12.99794
+7 - Igreja de São Lázaro: -38.512004,-13.008134
+8 - Convento das Ursulinas: -38.513263,-13.006126
+9 - Ponta interna da foz do Lucaia ("Rio Vermelho"): -38.48756,-13.00650
+10 - Ponta externa da foz do Lucaia ("Rio Vermelho"): -38.48901,-13.01067
+11 - Praia da Paciência: -38.49696,-13.01071
+12 - Alto da Sereia: -38.49999,-13.01141
+13 - Foz do rio do HGE: -38.492220,-12.997349
+14 - D. João VI encontra Dezenove de Maio: -38.48688,-12.99116
+15 - D. João VI encontra Copacabana: -38.491925,-12.989618
+16 - Acupe encontra N. S. Guadalupe: -38.49313,-12.98997
+17 - Curva do Acupe antes de Padre Elói: -38.492923,-12.992138
+18 - Acupe encontra Caetano: -38.492170,-12.993390
+19 - Ponte da foz do Lucaia: -38.488858,-13.013933
+20 - Waldemar Falcão encontra Irmã Dulce: -38.487099,-12.994992
+21 - Waldemar Falcão encontra Alba Longa: -38.488742,-12.997001
+22 - Waldemar Falcão encontra Piratancará: -38.488126,-12.998939
+23 - Waldemar Falcão encontra Correia de Menezes: -38.489340,-13.000671
+24 - Waldemar Falcão encontra Estácio Gonzaga: -38.489930,-13.002429
+25 - Waldemar Falcão encontra Lucaia: -38.491206,-13.007054
+26 - D. João VI encontra Cônego Pereira da Silva: -38.489081,-12.990091
+
+ESTRADA DE BROTAS
+0 - Largo da Cruz da Redenção: -38.478642,-12.988246
+1 - D. João VI encontra Campinas de Brotas: -38.479028,-12.988181
+2 - D. João VI encontra Monsenhor Antônio Rosa: -38.481887,-12.988832
+3 - Esquina da Waldemar Falcão com a D João VI: -38.484435,-12.991194
+4 - Waldemar Falcão encontra Bons Ares: -38.484681,-12.992953
+5 - Waldemar Falcão encontra Costa e Silva: -38.484361,-12.991550
+6 - D. João VI encontra Dezenove de Maio: -38.48688,-12.99116
+7 - D. João VI encontra Comendador Pereira da Silva: -38.489081,-12.990091
+8 - D. João VI encontra Copacabana: -38.491925,-12.989618
+9 - Esquina do Acupe com D João VI: -38.492613,-12.989072
+10 - Acupe encontra N. S. Guadalupe: -38.49313,-12.98997
+11 - Curva do Acupe antes de Padre Elói: -38.492923,-12.992138
+12 - Acupe encontra Dr. José Carlos/Caetano: -38.492170,-12.993390
+13 - D. João VI encontra Padre Daniel Lisboa: -38.492583,-12.987297
+14 - D. João VI encontra Urbino de Aguiar: -38.493187,-12.986596
+15 - D. João VI encontra Nossa Senhora de Brotas: -38.493562,-12.986424
+16 - D. João VI encontra Travessa Santa Teresinha: -38.4944396,-12.9858076
+17 - Curva suave depois da Santa Terezinha: -38.495214,-12.984787
+18 - Curva antes da Ogunjá: -38.496155,-12.984037
+19 - D. João VI encontra General Sinésio de Farias: -38.496938,-12.982916
+20 - D. João VI encontra Vila Frederico Costa/1ª Tv. Fred. Costa: -38.498708,-12.982508
+21 - Esquina da Boa Vista: -38.499217,-12.982143
+
+MATATU
+0 - D. João VI encontra General Sinésio de Farias: -38.496938,-12.982916
+1 - Largo do Paranhos: -38.496006,-12.977356
+2 - Santo Agostinho encontra Barros Falcão: -38.493842,-12.974339
+3 - Cruzamento Daniel Lisboa/Raul Leite: -38.492322,-12.973595
+4 - Raul Leite encontra Alfredo Rocha: -38.492380,-12.972236
+5 - Raul Leite encontra Laura Costa: -38.491062,-12.971123
+6 - Raul Leite encontra Oswaldo O'Dwyer: -38.489442,-12.971633
+7 - Esquina depois da Oswaldo O'Dwyer: -38.488238,-12.972284
+8 - Curva depois da Major Paulo Vaz: -38.485749,-12.971459
+9 - Primeira casinha da Casa da Povora: -38.484153,-12.972445
+10 - Primeira curva suave da Luiz Anselmo: -38.490897,-12.974885
+11 - Primeira curva acentuada da Luiz Anselmo: -38.485424,-12.975145
+12 - Subestação/Matatu Grande: -38.483154,-12.977655
+13 - Primeira curva suavíssima de Cosme de Farias: -38.495243,-12.979008
+14 - Primeira curva suave de Cosme de Farias: -38.494829,-12.979419
+15 - Segunda curva suave de Cosme de Farias: -38.494472,-12.980347
+16 - Cosme de Farias encontra Angaturana: -38.4936861,-12.9809314
+17 - Cosme de Farias encontra av. Murici: -38.490731,-12.980171
+18 - Fim de Linha/Quinta das Beatas: -38.4885337,-12.9810061
+19 - Começo da curva da Rua da Vala/Heitor Dias: -38.48138,-12.96903
+20 - Curva suave na Rua da Vala/Heitor Dias: -38.48814,-12.96796
+21 - Começo do "S" na Rua da Vala/Heitor Dias: -38.49138,-12.96642
+22 - Roça da Laura Costa: -38.49160,-12.96979
+23 - Cônego Pereira encontra Rua da Vala/Heitor Dias: -38.494314,-12.967478
+
+WEYLL COMPLETO
+
+a) ESTRADA 2 DE JULHO
+0 - Início da Vasco da Gama: -38.507859,-12.988515 OK
+1 - Foz do São Pedro: -38.506771,-12.990845 ok
+2 - Cruzamento Ogunjá/Vasco da Gama: -38.49633,-12.99520 ok 
+3 - Foz do Lucaia: -38.48907,-13.01443 ok
+4 - Cardeal da Silva encontra Vale da Muriçoca na frente da UCSal: -38.501187,-13.002258 ok
+5 - Cardeal da Silva encontra Jardim Federação: -38.505878,-12.997082 ok
+6 - Igreja de São Lázaro: -38.512004,-13.008134 ok
+7 - Convento das Ursulinas: -38.513263,-13.006126 ok
+8 - Ponta interna da foz do Lucaia ("Rio Vermelho"): -38.48756,-13.00650 ok
+9 - Ponta externa da foz do Lucaia ("Rio Vermelho"): -38.48901,-13.01067 ok
+10 - Praia da Paciência: -38.49696,-13.01071 ok 
+11 - Alto da Sereia: -38.49999,-13.01141 ok
+12 - Foz do rio do HGE: -38.492220,-12.997349 ok
+13 - D. João VI encontra Dezenove de Maio: -38.48688,-12.99116 ok
+14 - D. João VI encontra Copacabana: -38.491925,-12.989618 ok
+15 - Acupe encontra N. S. Guadalupe: -38.49313,-12.98997 ok
+16 - Curva do Acupe antes de Padre Elói: -38.492923,-12.992138 ok
+17 - Acupe encontra Caetano: -38.492170,-12.993390 ok
+18 - Ponte da foz do Lucaia: -38.488858,-13.013933 ok
+19 - Waldemar Falcão encontra Irmã Dulce: -38.487099,-12.994992 ok
+20 - Waldemar Falcão encontra Alba Longa: -38.488742,-12.997001 ok
+21 - Waldemar Falcão encontra Piratancará: -38.488126,-12.998939 ok
+22 - Waldemar Falcão encontra Correia de Menezes: -38.489340,-13.000671 ok
+23 - Waldemar Falcão encontra Estácio Gonzaga: -38.489930,-13.002429 ok
+24 - Waldemar Falcão encontra Lucaia: -38.491206,-13.007054 ok
+25 - D. João VI encontra Cônego Pereira da Silva: -38.489081,-12.990091 
+
+b) MATATU
+26 - D. João VI encontra General Sinésio de Farias: -38.496938,-12.982916
+27 - Largo do Paranhos: -38.496006,-12.977356
+28 - Santo Agostinho encontra Barros Falcão: -38.493842,-12.974339
+29 - Cruzamento Daniel Lisboa/Raul Leite/Barros Falcão: -38.492322,-12.973595
+30 - Raul Leite encontra Alfredo Rocha: -38.492380,-12.972236
+31 - Raul Leite encontra Laura Costa: -38.491062,-12.971123
+32 - Raul Leite encontra Oswaldo O'Dwyer: -38.489442,-12.971633
+33 - Esquina depois da Oswaldo O'Dwyer: -38.488238,-12.972284
+34 - Curva depois da Major Paulo Vaz: -38.485749,-12.971459
+35 - Primeira casinha antes da Casa da Povora: -38.484153,-12.972445
+36 - Primeira curva suave da Luiz Anselmo: -38.490897,-12.974885
+37 - Primeira curva acentuada da Luiz Anselmo: -38.485424,-12.975145
+38 - Subestação/Matatu Grande: -38.483154,-12.977655
+39 - Primeira curva suavíssima de Cosme de Farias: -38.495243,-12.979008
+40 - Primeira curva suave de Cosme de Farias: -38.494829,-12.979419
+41 - Primeira esquina de Cosme de Farias: -38.494472,-12.980347
+42 - Cosme de Farias encontra Angaturana: -38.4936861,-12.9809314
+43 - Cosme de Farias encontra av. Murici: -38.490731,-12.980171
+44 - Fim de Linha/Quinta das Beatas: -38.4885337,-12.9810061
+45 - Começo da curva da Rua da Vala/Heitor Dias: -38.48138,-12.96903
+46 - Curva suave na Rua da Vala/Heitor Dias: -38.48814,-12.96796
+47 - Começo do "S" na Rua da Vala/Heitor Dias: -38.49138,-12.96642
+48 - Roça da Laura Costa: -38.49160,-12.96979
+49 - Cônego Pereira encontra Rua da Vala/Heitor Dias: -38.494314,-12.967478
+
+
