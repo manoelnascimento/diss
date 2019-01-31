@@ -1,10 +1,10 @@
 \documentclass[
 	% -- opções da classe memoir --
 	12pt,					% tamanho da fonte
-	openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+^	openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
 	oneside,			% para impressão em verso e anverso. Oposto a oneside
 	a4paper,			% tamanho do papel. 
-	draft,				% Use "draft" para compilar mais rápido e "final" para a versão final.
+	final,				% Use "draft" para compilar mais rápido e "final" para a versão final.
 	% -- opções da classe abntex2 --
 	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
 	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
@@ -31,7 +31,9 @@
 \usepackage{rotating}			% Gira itens
 \usepackage{booktabs}
 \usepackage{verse}
-\usepackage{subfig}
+% \usepackage{subfig}
+\usepackage{caption}
+\usepackage{subcaption}
 \usepackage{float}
 \usepackage{rotfloat}
 \usepackage{pdflscape}		% Gira a página para layout "paisagem"
@@ -41,6 +43,8 @@
 % \usepackage[style=abnt,backend=biber]{biblatex}
 \usepackage{nomencl} 			% Lista de simbolos
 \usepackage{UFBA}
+\usepackage{afterpage}
+\usepackage{changepage}
 
 % ---
 % Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
@@ -82,6 +86,18 @@
 \nopagebreak{\raggedleft\footnotesize #1\par}}
 \renewcommand{\poemtitlefont}{\normalfont\large\itshape\centering}
 % ---
+
+% --- 
+% Ambiente A3 Paisagem (insere páginas A3 em modo paisagem ("deitado") no meio do documento)
+% ---
+\newenvironment{a3paisagem} % ambiente personalizado para inserir uma página A3 no meio de um documento com páginas em tamanho A4
+  {\clearpage % começa o processo em página nova
+   \pdfpagewidth=2\pdfpagewidth % dobra a largura da página
+   \changetext{}{210mm}{}{}{}} % adiciona 210mm à largura da página
+  {\clearpage % abre nova página para encerrar o processo
+   } % fecha o ambiente e retorna ao tamanho A4
+% ---
+
 
 % ---
 % Informações de dados para CAPA e FOLHA DE ROSTO
