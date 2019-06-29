@@ -58,6 +58,13 @@
  \usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
  \usepackage[alf,abnt-full-initials=yes,abnt-repeated-author-omit=yes,abnt-emphasize=bf,abnt-missing-year=sd]{abntex2cite}	% Citações padrão ABNT
 
+% ---
+% Pacote para alinhar itens numerados e sem número igualmente no índice
+% ---
+% \usepackage[toctextentriesindented]{tocstyle}
+% \usetocstyle{nopagecolumn}
+% \selecttocstyleoption{tocflat}
+
 % --- 
 % CONFIGURAÇÕES DE PACOTES
 % --- 
@@ -287,7 +294,7 @@
 
 % Usando abntex2cite (uma só seção, corrida)
 
- \bibliography{6-refbib/biblioteca-old}
+\bibliography{6-refbib/biblioteca-old}
 
 % Usando bibtopic (várias seções)
 
@@ -333,7 +340,7 @@
 % Apêndices
 % ----------------------------------------------------------
 
-\include{7-apendices/apendices}
+% \include{7-apendices/apendices}
 
 % ----------------------------------------------------------
 % Anexos
