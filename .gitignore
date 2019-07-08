@@ -199,6 +199,20 @@ TSWLatexianTemp*
 
 **/*.ps
 **/*.eps
+/tex/0-pre-textuais/agradecimentos.aux
+/tex/0-pre-textuais/dedicatoria.aux
+/tex/0-pre-textuais/epigrafe.aux
+/tex/0-pre-textuais/fichacatal.aux
+/tex/0-pre-textuais/folhadeaprova.aux
+/tex/0-pre-textuais/resumos.aux
+/tex/0-pre-textuais/siglas.aux
+/tex/1-intro/intro.aux
+/tex/2-cap1/cap01.aux
+/tex/2-cap1/complementos/tabelas/.~lock.bachareis em direito 1891-1930.ods#
+/tex/2-cap1/texto/02-insbras.tex.orig
+/tex/6-refbib/biblioteca-old.bib.orig
+/tex/3-cap2/cap02.aux
+/tex/3-cap2/complementos/tabelas/decurb-1886-1891.tex~
 /tex/3-cap2/complementos/mapas/georreferenciamento/brotas-weyll.qgs
 /tex/3-cap2/complementos/mapas/georreferenciamento/brotas-weyll.qgs~
 /tex/3-cap2/complementos/mapas/georreferenciamento/weyll/1855weyll-brotassegundodezfreguesias.jpg
@@ -206,10 +220,7 @@ TSWLatexianTemp*
 /tex/3-cap2/complementos/mapas/georreferenciamento/weyll/1855weyll.jpg
 /tex/3-cap2/complementos/mapas/georreferenciamento/weyll/1855weyll.jpg.points
 /tex/3-cap2/complementos/mapas/georreferenciamento/weyll/1855weyll_modificado.tif
-/tex/2-cap1/complementos/tabelas/.~lock.bachareis em direito 1891-1930.ods#
-/tex/2-cap1/texto/02-insbras.tex.orig
-/tex/6-refbib/biblioteca-old.bib.orig
-/tex/3-cap2/complementos/tabelas/decurb-1886-1891.tex~
+/tex/4-cap3/cap03.aux
 /tex/4-cap3/complementos/tabelas/taxalocação1893.tex~
 /tex/4-cap3/complementos/tabelas/.~lock.construcoes-ruaedecada.ods#
 /tex/4-cap3/complementos/tabelas/calcamento1929.tex~
@@ -228,3 +239,10 @@ TSWLatexianTemp*
 /tex/4-cap3/complementos/imagens/1910-dique-rbc.xcf
 /tex/4-cap3/complementos/imagens/1926-e2j-rbc.xcf
 /tex/4-cap3/complementos/imagens/19xx-estbrotas-rbc.xcf
+/tex/5-concl/concl.aux
+/tex/6-refbib/10.2307_985951.bib
+/tex/7-apendices/apendices.aux
+/tex/8-anexos/anexos.aux
+/tex/8-anexos/mapas/1839-beaurepairerohan-georreferenciado.tif
+/tex/8-anexos/mapas/1969-mapaprefeitura-bkp-georreferenciado.tif
+/tex/8-anexos/mapas/2019-salvador.qgs~
