@@ -212,7 +212,10 @@ TSWLatexianTemp*
 /tex/2-cap1/texto/02-insbras.tex.orig
 /tex/6-refbib/biblioteca-old.bib.orig
 /tex/3-cap2/cap02.aux
+<<<<<<< HEAD
 /tex/3-cap2/texto/04-carfund.log
+=======
+>>>>>>> final
 /tex/3-cap2/complementos/tabelas/decurb-1886-1891.tex~
 /tex/3-cap2/complementos/mapas/georreferenciamento/brotas-weyll.qgs
 /tex/3-cap2/complementos/mapas/georreferenciamento/brotas-weyll.qgs~
@@ -247,6 +250,7 @@ TSWLatexianTemp*
 /tex/8-anexos/mapas/1839-beaurepairerohan-georreferenciado.tif
 /tex/8-anexos/mapas/1969-mapaprefeitura-bkp-georreferenciado.tif
 /tex/8-anexos/mapas/2019-salvador.qgs~
+<<<<<<< HEAD
 /tex/2-cap1/complementos/mapas/1839-beaurepairerohan-recorte.xcf
 /tex/2-cap1/complementos/mapas/1899-theodorosampaio-recorte.xcf
 /tex/2-cap1/complementos/mapas/1899-theodorosampaio.xcf
@@ -548,3 +552,5 @@ TSWLatexianTemp*
 /tex/3-cap2/complementos/imagens/nsbrotas-interior[www.igrejas-bahia.com].jpg
 /tex/3-cap2/complementos/imagens/nsluz-interior[www.igrejas-bahia.com].jpg
 /tex/3-cap2/complementos/imagens/nsluz[www.igrejas-bahia.com].jpg
+=======
+>>>>>>> final
