@@ -173,3 +173,13 @@ echo Pronto!
 sleep 5
 
 echo O ramo está pronto para ser enviado ao repositório remoto.
+sleep 5
+
+while true; do
+    read -p "Quer tentar enviar para o repositório remoto?" sn
+    case $yn in
+        [Ss]* ) git push;;
+        [Nn]* ) exit;;
+        * ) echo "Por favor, responda com 'sim' (s) ou 'não' (n).";;
+    esac
+done
