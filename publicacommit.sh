@@ -4,7 +4,7 @@
 
 # $USER=$usuario
 # $HOSTNAME=$maquina
-$( date +'%Y%M%d %H:%M:%S' )=data
+data=$( date +'%Y%m%d %H:%M:%S' )
 
 ### Cópia do conteúdo das pastas
 
@@ -107,45 +107,56 @@ sleep 5
 
 echo Adicionando os arquivos modificados ao ramo odeterevisa. Aguarde...
 sleep 5
-git add tex/0-pre-textuais/agradecimentos.tex &
-git add tex/0-pre-textuais/dedicatoria.tex &
-git add tex/0-pre-textuais/epigrafe.tex &
-git add tex/0-pre-textuais/epígrafe.tex &
-git add tex/0-pre-textuais/fichacatal.tex &
-git add tex/0-pre-textuais/folhadeaprova.tex &
-git add tex/0-pre-textuais/resumos.tex &
-git add tex/0-pre-textuais/siglas.tex &
-git add tex/1-intro/intro.tex &
-git add tex/2-cap1/cap01.tex &
-git add tex/2-cap1/texto/01-geopol.tex &
-git add tex/2-cap1/texto/02-insbras.tex &
-git add tex/2-cap1/texto/03-socba.tex &
-git add tex/2-cap1/texto/04-polba.tex &
-git add tex/2-cap1/texto/05-espsal.tex &
-git add tex/2-cap1/texto/06-concl.tex &
-git add tex/3-cap2/cap02.tex &
-git add tex/2-cap1/texto/01-histdelim.tex &
-git add tex/2-cap1/texto/02-pontnot.tex &
-git add tex/2-cap1/texto/03-socecon.tex &
-git add tex/2-cap1/texto/04-carfund.tex &
-git add tex/2-cap1/texto/05-usesp.tex &
-git add tex/2-cap1/texto/06-vesalv.tex &
-git add tex/2-cap1/texto/07-concl.tex &
-git add tex/4-cap3/cap03.tex &
-git add tex/4-cap3/texto/acaoprivada.tex &
-git add tex/4-cap3/texto/investimentospublicos.tex &
-git add tex/4-cap3/texto/acaoreciproca.tex &
-git add tex/8-anexos/tabelas/1858-registroterrasbrotas.tex &
-git add tex/8-anexos/tabelas/prop-rurais-ssa-1920.tex &
-git add tex/8-anexos/tabelas/tabela-cinemas-comnotas.tex &
-git add tex/8-anexos/tabelas/tabela-ruasdebrotas-guiadesalvador1935.tex &
+git add tex/0-pre-textuais/agradecimentos.tex
+git add tex/0-pre-textuais/dedicatoria.tex
+git add tex/0-pre-textuais/epigrafe.tex
+git add tex/0-pre-textuais/epígrafe.tex
+git add tex/0-pre-textuais/fichacatal.tex
+git add tex/0-pre-textuais/folhadeaprova.tex
+git add tex/0-pre-textuais/resumos.tex
+git add tex/0-pre-textuais/siglas.tex
+git add tex/1-intro/intro.tex
+git add tex/2-cap1/cap01.tex
+git add tex/2-cap1/texto/01-geopol.tex
+git add tex/2-cap1/texto/02-insbras.tex
+git add tex/2-cap1/texto/03-socba.tex
+git add tex/2-cap1/texto/04-polba.tex
+git add tex/2-cap1/texto/05-espsal.tex
+git add tex/2-cap1/texto/06-concl.tex
+git add tex/3-cap2/cap02.tex
+git add tex/2-cap1/texto/01-histdelim.tex
+git add tex/2-cap1/texto/02-pontnot.tex
+git add tex/2-cap1/texto/03-socecon.tex
+git add tex/2-cap1/texto/04-carfund.tex
+git add tex/2-cap1/texto/05-usesp.tex
+git add tex/2-cap1/texto/06-vesalv.tex
+git add tex/2-cap1/texto/07-concl.tex
+git add tex/4-cap3/cap03.tex
+git add tex/4-cap3/texto/acaoprivada.tex
+git add tex/4-cap3/texto/investimentospublicos.tex
+git add tex/4-cap3/texto/acaoreciproca.tex
+git add tex/5-concl/concl.tex
+git add tex/6-refbib/biblioteca-old.bib
+git add tex/7-apendices/apendices.tex
+git add tex/7-apendices/texto/criticachicodeoliveira.tex
+git add tex/7-apendices/texto/gestores.tex
+git add tex/7-apendices/texto/mapas.tex
+git add tex/8-anexos/tabelas/1858-registroterrasbrotas.tex
+git add tex/8-anexos/tabelas/prop-rurais-ssa-1920.tex
+git add tex/8-anexos/tabelas/tabela-cinemas-comnotas.tex
+git add tex/8-anexos/tabelas/tabela-ruasdebrotas-guiadesalvador1935.tex
+git add tex/8-anexos/tabelas/1858-registroterrasbrotas.tex
+git add tex/8-anexos/tabelas/prop-rurais-ssa-1920.tex
+git add tex/8-anexos/tabelas/tabela-cinemas-comnotas.tex
+git add tex/8-anexos/tabelas/tabela-ruasdebrotas-guiadesalvador1935.tex
+git add publicacommit.sh
 echo Pronto!
 sleep 5
 
 echo Preparando o commit para o ramo odeterevisa. Aguarde...
 sleep 5
-# git status odeterevisa 
-git commit -m '$data $USER $HOSTNAME'
+git status odeterevisa 
+git commit -m "$data $USER $HOSTNAME"
 echo Pronto!
 sleep 5
 
