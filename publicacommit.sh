@@ -11,6 +11,12 @@ cd "$(dirname "$0")"
 
 ### Cópia do conteúdo das pastas
 
+## Cópia do conteúdo do arquivo principal
+echo Copiando o conteúdo de disserta-final. Aguarde...
+sleep 5
+cat ~/Mestrado/arquitetura/desastre/disserta-final.tex > ~/Mestrado/arquitetura/diss/tex/disserta-final.tex &
+echo Pronto!
+
 ## Cópia do conteúdo da pasta 0-pre-textuais
 echo Copiando o conteúdo da pasta 0-pre-textuais. Aguarde...
 sleep 5
@@ -46,13 +52,13 @@ echo Pronto!
 echo Copiando o conteúdo da pasta 3-cap2. Aguarde...
 sleep 5
 cat ~/Mestrado/arquitetura/desastre/3-cap2/cap02.tex > ~/Mestrado/arquitetura/diss/tex/3-cap2/cap02.tex &
-cat ~/Mestrado/arquitetura/desastre/3-cap2/texto/01-histdelim.tex > ~/Mestrado/arquitetura/diss/tex/2-cap1/texto/01-histdelim.tex &
-cat ~/Mestrado/arquitetura/desastre/3-cap2/texto/02-pontnot.tex > ~/Mestrado/arquitetura/diss/tex/2-cap1/texto/02-pontnot.tex &
-cat ~/Mestrado/arquitetura/desastre/3-cap2/texto/03-socecon.tex > ~/Mestrado/arquitetura/diss/tex/2-cap1/texto/03-socecon.tex &
-cat ~/Mestrado/arquitetura/desastre/3-cap2/texto/04-carfund.tex > ~/Mestrado/arquitetura/diss/tex/2-cap1/texto/04-carfund.tex &
-cat ~/Mestrado/arquitetura/desastre/3-cap2/texto/05-usesp.tex > ~/Mestrado/arquitetura/diss/tex/2-cap1/texto/05-usesp.tex &
-cat ~/Mestrado/arquitetura/desastre/3-cap2/texto/06-vesalv.tex > ~/Mestrado/arquitetura/diss/tex/2-cap1/texto/06-vesalv.tex &
-cat ~/Mestrado/arquitetura/desastre/3-cap2/texto/07-concl.tex > ~/Mestrado/arquitetura/diss/tex/2-cap1/texto/07-concl.tex &
+cat ~/Mestrado/arquitetura/desastre/3-cap2/texto/01-histdelim.tex > ~/Mestrado/arquitetura/diss/tex/3-cap2/texto/01-histdelim.tex &
+cat ~/Mestrado/arquitetura/desastre/3-cap2/texto/02-pontnot.tex > ~/Mestrado/arquitetura/diss/tex/3-cap2/texto/02-pontnot.tex &
+cat ~/Mestrado/arquitetura/desastre/3-cap2/texto/03-socecon.tex > ~/Mestrado/arquitetura/diss/tex/3-cap2/texto/03-socecon.tex &
+cat ~/Mestrado/arquitetura/desastre/3-cap2/texto/04-carfund.tex > ~/Mestrado/arquitetura/diss/tex/3-cap2/texto/04-carfund.tex &
+cat ~/Mestrado/arquitetura/desastre/3-cap2/texto/05-usesp.tex > ~/Mestrado/arquitetura/diss/tex/3-cap2/texto/05-usesp.tex &
+cat ~/Mestrado/arquitetura/desastre/3-cap2/texto/06-vesalv.tex > ~/Mestrado/arquitetura/diss/tex/3-cap2/texto/06-vesalv.tex &
+cat ~/Mestrado/arquitetura/desastre/3-cap2/texto/07-concl.tex > ~/Mestrado/arquitetura/diss/tex/3-cap2/texto/07-concl.tex &
 echo Pronto!
 
 ## Cópia do conteúdo da pasta 4-cap3
@@ -110,6 +116,7 @@ sleep 5
 
 echo Adicionando os arquivos modificados ao ramo odeterevisa. Aguarde...
 sleep 5
+git add tex/disserta-final.tex
 git add tex/0-pre-textuais/agradecimentos.tex
 git add tex/0-pre-textuais/dedicatoria.tex
 git add tex/0-pre-textuais/epigrafe.tex
