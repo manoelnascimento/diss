@@ -153,9 +153,11 @@ git add publicacommit.sh
 echo Pronto!
 sleep 5
 
-echo Preparando o commit para o ramo odeterevisa. Aguarde...
+echo Checando a situação de odeterevisa. Aguarde...
 sleep 5
 git status odeterevisa 
+echo Preparando o commit para o ramo odeterevisa. Aguarde...
+sleep 5
 git commit -m "$data $USER $HOSTNAME"
 echo Pronto!
 sleep 5
