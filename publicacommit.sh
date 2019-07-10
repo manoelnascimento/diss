@@ -6,6 +6,9 @@
 # $HOSTNAME=$maquina
 data=$( date +'%Y%m%d %H:%M:%S' )
 
+### Definição do diretório
+cd "$(dirname "$0")"
+
 ### Cópia do conteúdo das pastas
 
 ## Cópia do conteúdo da pasta 0-pre-textuais
