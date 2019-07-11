@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fulfillmentToken fulfillmentType="buy" xmlns="http://ns.adobe.com/adept">
+<distributor>urn:uuid:00000000-0000-0000-0000-000000000001</distributor>
+<operatorURL>http://books.google.com/books/acs4/fulfillment</operatorURL>
+<expiration>2019-06-23T17:56:37-07:00</expiration>
+<transaction>ge:307e5fd3-bb67-8076-e41f-616b76494ee3:1561336897934812</transaction>
+<userId>17816951402561176222</userId>
+<resourceItemInfo>
+<resource>urn:uuid:307e5fd3-bb67-8076-e41f-616b76494ee3</resource>
+<resourceItem>1</resourceItem>
+<src>https://books.google.com/books/download/Salvador.epub?acsid=urn:uuid:307e5fd3-bb67-8076-e41f-616b76494ee3&amp;output=acs4_book_bytes&amp;ar=9cfd22b6c32b3117ab1717f71c87fef4</src>
+<downloadType>simple</downloadType>
+</resourceItemInfo>
+<hmac>E4/Mpkyh2GEI2jOTSVxE9dUZclE=</hmac>
+</fulfillmentToken>
