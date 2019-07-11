@@ -1,0 +1,43 @@
+\begin{table}[!htp]
+\centering
+\IBGEtab{
+\caption{Logradouros cadastrados para coleta da décima urbana no quinquênio 1886-1891}\label{tab:decurb1886-1891}}
+{\begin{tabular}{ccc}
+\toprule
+Logradouro				&Total de móveis cadastrados	&\% da freguesia\\
+\midrule \midrule
+(sem nome)				&25				&8,36\%		\\
+Estrada da Quinta das Beatas		&8				&2,68\%		\\
+Quinta das Beatas			&6				&2,01\%		\\
+Matatu Pequeno				&24				&8,03\%		\\
+Matatu Grande				&38				&12,71\%	\\
+Estrada para a Casa da Pólvora		&4				&1,34\%		\\
+Estrada do Engenho Velho		&8				&2,68\%		\\
+Boa Vista				&8				&2,68\%		\\
+Ladeira da Boa Vista			&2				&0,67\%		\\
+Ladeira do Acú				&2				&0,67\%		\\
+Estrada do Acú				&13				&4,35\%		\\
+Largo do Acú				&2				&0,67\%		\\
+Estrada do Acú para a 2 de Julho	&5				&1,67\%		\\
+Estrada de Brotas			&15				&5,02\%		\\
+Estrada da Cruz das Almas		&14				&4,68\%		\\
+Largo de Brotas				&39				&13,04\%	\\
+Estrada para a Cruz da Redenção		&4				&1,34\%		\\
+Largo da Cruz da Redenção		&4				&1,34\%		\\
+Campina					&2				&0,67\%		\\
+Candeal					&3				&1,00\%		\\
+Mariquita				&65				&21,74\%	\\
+Estrada do Sangradouro para o Matatu	&11				&3,68\%		\\
+Alto do Sangradouro			&4				&1,34\%		\\
+Estrada da Ubarana			&1				&0,33\%		\\
+Pomar					&5				&1,67\%		\\
+Lagoa					&1				&0,33\%		\\
+Estrada para a Armação			&7				&2,34\%		\\
+Várzea de Santo Antônio			&1				&0,33\%		\\
+Armação					&3				&1,00\%		\\
+\midrule
+TOTAL					&324				&100,00\%	\\
+\bottomrule
+\end{tabular}
+}
+\end{table}
