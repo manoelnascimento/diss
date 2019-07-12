@@ -1,7 +1,3 @@
-
-# Created by https://www.gitignore.io/api/latex
-
-### LaTeX ###
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
@@ -197,6 +193,7 @@ TSWLatexianTemp*
 # KBibTeX
 *~[0-9]*
 
+<<<<<<< HEAD
 **/*.ps
 **/*.eps
 /tex/0-pre-textuais/agradecimentos.aux
@@ -271,3 +268,9 @@ TSWLatexianTemp*
 /tex/8-anexos/mapas/1969-mapaprefeitura-modif.xcf
 /tex/8-anexos/mapas/1969-mapaprefeitura.xcf
 
+=======
+20150721-odete
+grandes
+testes
+teste*.*
+>>>>>>> d7163cc8e41acc0c13f2d33b8ea3bb69e22f4e46

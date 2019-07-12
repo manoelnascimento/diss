@@ -1,0 +1,27 @@
+\begin{table}[!htp]
+\IBGEtab{
+\caption{Área calçada pela Prefeitura de Salvador em 1929, por distrito da cidade}\label{tab:calcamento1929}}
+{
+\begin{tabular}{cc}
+\toprule
+Distritos	&Área calçada ($m^{2}$)\\
+\midrule
+\midrule
+Vitória	&36.823,41\\
+Mares	&20.482,87\\
+Penha	&19.604,03\\
+Santo Antônio	&15.234,82\\
+São Pedro	&13.602,28\\
+Brotas	&12.189,40\\
+Nazaré	&2.985,95\\
+Santana	&2.703,20\\
+Conceição da Praia	&2.566,94\\
+Pilar	&2.382,48\\
+Sé	&270,79\\
+\midrule
+TOTAL	&128.846,17\\
+\bottomrule
+\end{tabular}
+}
+{\fonte{Elaboração do autor, com base em \citeonline[p.~11-12]{salvador_relatorio_1929}.}}
+\end{table}
