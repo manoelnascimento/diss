@@ -1,0 +1,358 @@
+\documentclass[
+	% -- opções da classe memoir --
+	12pt,					% tamanho da fonte
+^	openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	oneside,			% para impressão em verso e anverso. Oposto a oneside
+	a4paper,			% tamanho do papel. 
+	final,				% Use "draft" para compilar mais rápido e "final" para a versão final.
+	% -- opções da classe abntex2 --
+	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	english,				% idioma adicional para hifenização
+	french,				% idioma adicional para hifenização
+	spanish,			% idioma adicional para hifenização
+	brazil				% o último idioma é o principal do documento
+	]{abntex2}
+\usepackage{lmodern}			% Usa a fonte Latin Modern			
+\usepackage[LGR,T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}	% Codificacao do documento (conversão automática dos acentos)
+\usepackage{lastpage}			% Usado pela Ficha catalográfica
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 		% Para melhorias de justificação
+\usepackage{longtable}		% Usado com "tabu" para criar tabelas em múltiplas páginas
+\usepackage{tabu}				% Usado com "longtable" para criar tabelas em múltiplas páginas
+\usepackage{array}				% Usado para alguns alinhamentos de células em tabelas
+\usepackage{multirow}			% Mescla linhas em tabelas
+\usepackage{rotating}			% Gira itens
+\usepackage{booktabs}
+\usepackage{verse}
+% \usepackage{subfig}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage{rotfloat}
+\usepackage{pdflscape}		% Gira a página para layout "paisagem"
+\usepackage{makeidx}			% Cria o índice no final
+% \usepackage{multind}			% Cria índices múltiplos no final
+% \usepackage{bibtopic}		% Separa a bibliografia por tópicos
+% \usepackage[style=abnt,backend=biber]{biblatex}
+\usepackage{nomencl} 			% Lista de simbolos
+\usepackage{UFBA}
+\usepackage{afterpage}
+\usepackage{changepage}
+
+% ---
+% Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
+% ---
+\usepackage{lipsum}				% para geração de dummy text
+% ---
+
+% ---
+% Pacotes de citações
+% ---
+ \usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+ \usepackage[alf,abnt-full-initials=yes,abnt-repeated-author-omit=yes,abnt-emphasize=bf,abnt-missing-year=sd]{abntex2cite}	% Citações padrão ABNT
+
+% ---
+% Pacote para alinhar itens numerados e sem número igualmente no índice
+% ---
+% \usepackage[toctextentriesindented]{tocstyle}
+% \usetocstyle{nopagecolumn}
+% \selecttocstyleoption{tocflat}
+
+% --- 
+% CONFIGURAÇÕES DE PACOTES
+% --- 
+
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+ \renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+\renewcommand{\backref}{}
+% Define os textos da citação
+ \renewcommand*{\backrefalt}[4]{
+	\ifcase #1 %
+		Nenhuma citação no texto.%
+	\or
+		Citado na página #2.%
+	\else
+		Citado #1 vezes nas páginas #2.%
+	\fi}%
+\newcommand{\textgreek}[1]{\begingroup\fontencoding{LGR}\selectfont#1\endgroup}
+% ---
+
+% ---
+% Configurações do pacote ferse
+\newcommand{\attrib}[1]{%
+\nopagebreak{\raggedleft\footnotesize #1\par}}
+\renewcommand{\poemtitlefont}{\normalfont\large\itshape\centering}
+% ---
+
+% --- 
+% Ambiente A3 Paisagem (insere páginas A3 em modo paisagem ("deitado") no meio do documento)
+% ---
+\newenvironment{a3paisagem} % ambiente personalizado para inserir uma página A3 no meio de um documento com páginas em tamanho A4
+  {\clearpage % começa o processo em página nova
+   \pdfpagewidth=2\pdfpagewidth % dobra a largura da página
+   \changetext{}{210mm}{}{}{}} % adiciona 210mm à largura da página
+  {\clearpage % abre nova página para encerrar o processo
+   } % fecha o ambiente e retorna ao tamanho A4
+% ---
+
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{O distrito soteropolitano de Brotas na Primeira República (1889-1930): conflitos sociais na produção, apropriação e uso do seu espaço urbano}
+\autor{Manoel Maria do Nascimento Júnior}
+\local{Salvador, Bahia}
+\data{2018}
+\orientadora{Odete Dourado}
+\instituicao{Universidade Federal da Bahia}
+\faculdade{Faculdade de Arquitetura}
+\programa{Programa de Pós-Graduação em Arquitetura e Urbanismo}
+\tipotrabalho{Dissertação (Mestrado)}
+% O preambulo deve conter o tipo do trabalho, o objetivo, 
+% o nome da instituição e a área de concentração 
+\preambulo{Dissertação apresentada ao Programa de Pós-Graduação em Arquitetura e Urbanismo da Faculdade de Arquitetura da UFBA como requisito parcial para obtenção do grau de Mestre em Arquitetura e Urbanismo}
+% ---
+
+
+% ---
+% Configurações de aparência do PDF final
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    		pdfsubject={\imprimirpreambulo},
+	    pdfcreator={LaTeX with abnTeX2},
+		pdfkeywords={urbanismo}{Salvador}{República Velha}{Brotas}{conflitos sociais}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4,
+		breaklinks = true
+}
+\makeatother
+% --- 
+
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+% ---
+% compila o indice
+% ---
+\makeindex
+% ---
+
+% ---
+% Configurações de arquivos de imagem
+% ---
+\DeclareGraphicsExtensions{.pdf, .png, .jpg, .gif, .tif, .tiff, .jpeg}
+% ---
+
+% ----
+% Início do documento
+% ----
+
+
+\begin{document}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+\pretextual
+
+% ---
+% Capa
+% ---
+\imprimircapa
+% ---
+
+% ---
+% Folha de rosto
+% (o * indica que haverá a ficha bibliográfica)
+% ---
+\imprimirfolhaderosto*
+% ---
+
+\include{0-pre-textuais/fichacatal}
+\include{0-pre-textuais/folhadeaprova}
+\include{0-pre-textuais/dedicatoria}
+\include{0-pre-textuais/agradecimentos}
+\include{0-pre-textuais/epigrafe}
+\include{0-pre-textuais/resumos}
+
+% ---
+% inserir lista de ilustrações
+% ---
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+\cleardoublepage
+% ---
+
+% ---
+% inserir lista de tabelas
+% ---
+\pdfbookmark[0]{\listtablename}{lot}
+\listoftables*
+\cleardoublepage
+% ---
+
+% ---
+% inserir lista de abreviaturas e siglas por meio de um \item para cada uma
+% ---
+\include{0-pre-textuais/siglas}
+% ---
+
+% ---
+% inserir lista de símbolos por meio de um \item para cada um
+% ---
+%\begin{simbolos}
+%
+% \end{simbolos}
+% ---
+
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+% ---
+
+
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+
+\include{1-intro/intro}
+\include{2-cap1/cap01}
+\include{3-cap2/cap02}
+\include{4-cap3/cap03}
+
+% ----------------------------------------------------------
+% Finaliza a parte no bookmark do PDF
+% para que se inicie o bookmark na raiz
+% e adiciona espaço de parte no Sumário
+% ----------------------------------------------------------
+\phantompart
+
+% ---
+% Conclusão (outro exemplo de capítulo sem numeração e presente no sumário)
+% ---
+
+\include{5-concl/concl}
+
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+\postextual
+% ----------------------------------------------------------
+
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+
+% Usando biblatex para várias seções (tem que tirar o abntex2cite)
+
+% \addbibresource{6.refbib/biblioteca.bib}
+% \phantomsection
+% \printbibliography[title={Fontes primárias},type=unpublished]
+% \phantomsection
+% \printbibliography[title={Artigos, teses e dissertações},type=article,mastersthesis,phdthesis]
+% \phantomsection
+% \printbibliography[title={Livros},type=book,inbook,mvbook,collection,incollection,mvcollection]
+% \phantomsection
+% \printbibliography[title={Outros},nottype=unpublished,nottype=article,nottype=mastersthesis,nottype=phdthesis,nottype=book,nottype=inbook,nottype=mvbook,nottype=collection,nottype=incollection,nottype=mvcollection]
+
+% Usando abntex2cite (uma só seção, corrida)
+
+\bibliography{6-refbib/biblioteca-old}
+
+% Usando bibtopic (várias seções)
+
+% \section{Referências}
+% \begin{btSect}{6.refbib/primarias}
+%  \subsection{Fontes primárias}
+%  \btPrintCited
+% \end{btSect}
+% \begin{btSect}{6.refbib/legis}
+%  \subsection{Legislação}
+%  \btPrintCited
+% \end{btSect}
+% \begin{btSect}{6.refbib/livro}
+%  \subsection{Livros, capítulos de livros}
+%  \btPrintCited
+% \end{btSect}
+% \begin{btSect}{6.refbib/artigos}
+%  \subsection{Artigos}
+%  \btPrintCited
+% \end{btSect}
+% \begin{btSect}{6.refbib/teses}
+%  \subsection{Teses, dissertações e TCCs}
+%  \btPrintCited
+% \end{btSect}
+% \begin{btSect}{6.refbib/tecnicos}
+%  \subsection{Relatórios e documentos técnicos}
+%  \btPrintCited
+% \end{btSect}
+% \begin{btSect}{6.refbib/outros}
+%  \subsection{Outros}
+%  \btPrintCited
+% \end{btSect}
+
+% ----------------------------------------------------------
+% Glossário
+% ----------------------------------------------------------
+%
+% Consulte o manual da classe abntex2 para orientações sobre o glossário.
+%
+% \glossary
+
+% ----------------------------------------------------------
+% Apêndices
+% ----------------------------------------------------------
+
+\include{7-apendices/apendices}
+
+% ----------------------------------------------------------
+% Anexos
+% ----------------------------------------------------------
+
+\include{8-anexos/anexos}
+
+%---------------------------------------------------------------------
+% INDICE REMISSIVO
+%---------------------------------------------------------------------
+\phantompart
+\printindex
+%---------------------------------------------------------------------
+
+\end{document}

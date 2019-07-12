@@ -1,0 +1,214 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{23}{chapter.1}
+\contentsline {section}{\numberline {1.1}Marco te\IeC {\'o}rico}{25}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Quest\IeC {\~a}o epistemol\IeC {\'o}gica}{26}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Quest\IeC {\~a}o pr\IeC {\'a}tica}{29}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Primeiro campo te\IeC {\'o}rico: condi\IeC {\c c}\IeC {\~o}es gerais de produ\IeC {\c c}\IeC {\~a}o e conflitos sociais na obra de Jo\IeC {\~a}o Bernardo}{30}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}Segundo campo te\IeC {\'o}rico: urbanismo, planejamento urbano e geografia urbana}{38}{subsection.1.1.4}
+\contentsline {subsection}{\numberline {1.1.5}Terceiro campo te\IeC {\'o}rico: historiografia da Primeira Rep\IeC {\'u}blica}{48}{subsection.1.1.5}
+\contentsline {subsection}{\numberline {1.1.6}O modelo te\IeC {\'o}rico resultante}{49}{subsection.1.1.6}
+\contentsline {section}{\numberline {1.2}Metodologia}{49}{section.1.2}
+\contentsline {section}{\numberline {1.3}Estrutura do trabalho}{52}{section.1.3}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Sociedade, pol\IeC {\'\i }tica e espa\IeC {\c c}o urbano de Salvador em seu contexto (1889-1930)}}{59}{chapter.2}
+\contentsline {section}{\numberline {2.1}Contexto internacional}{59}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Precedentes: as unifica\IeC {\c c}\IeC {\~o}es pol\IeC {\'\i }ticas e a crise econ\IeC {\^o}mica global de 1873-1896}{60}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Imperialismo, colonialismo, carteis, trustes e a Primeira Guerra Mundial (1881-1914)}{64}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Revolu\IeC {\c c}\IeC {\~o}es, os anos 1920 e a crise de 1929}{67}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Urbaniza\IeC {\c c}\IeC {\~a}o: caos e ordem em tempos turbulentos}{71}{subsection.2.1.4}
+\contentsline {subsubsection}{\numberline {2.1.4.1}Do higienismo ao urbanismo: sa\IeC {\'u}de p\IeC {\'u}blica, infraestrutura urbana e conflitos sociais}{74}{subsubsection.2.1.4.1}
+\contentsline {subsubsection}{\numberline {2.1.4.2}As artes de morar: ecletismo e pr\IeC {\'e}-modernismos, por dentro e por fora}{86}{subsubsection.2.1.4.2}
+\contentsline {section}{\numberline {2.2}A inser\IeC {\c c}\IeC {\~a}o brasileira no contexto internacional}{93}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Da Rep\IeC {\'u}blica da Espada (1889-1894) \IeC {\`a} Rep\IeC {\'u}blica do Caf\IeC {\'e}-com-Leite (1894-1930)}{94}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}O Brasil, a banca internacional, o imperialismo}{100}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Classes sociais e pol\IeC {\'\i }tica na Primeira Rep\IeC {\'u}blica}{105}{subsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.3.1}A burguesia}{107}{subsubsection.2.2.3.1}
+\contentsline {subsubsection}{\numberline {2.2.3.2}Os latifundi\IeC {\'a}rios}{111}{subsubsection.2.2.3.2}
+\contentsline {subsubsection}{\numberline {2.2.3.3}O enigma da ``classe m\IeC {\'e}dia'' urbana e a forma\IeC {\c c}\IeC {\~a}o da classe dos gestores no Brasil}{115}{subsubsection.2.2.3.3}
+\contentsline {subsubsection}{\numberline {2.2.3.4}Os trabalhadores: a complexa forma\IeC {\c c}\IeC {\~a}o de uma classe}{120}{subsubsection.2.2.3.4}
+\contentsline {subsection}{\numberline {2.2.4}As cidades brasileiras: reformas urbanas e regime de terras em tempo de monop\IeC {\'o}lios}{124}{subsection.2.2.4}
+\contentsline {section}{\numberline {2.3}A sociedade baiana e soteropolitana num mundo em convuls\IeC {\~a}o}{130}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Demografia}{131}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Economia e classes sociais}{133}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Cultura e espa\IeC {\c c}o p\IeC {\'u}blico}{139}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}A pol\IeC {\'\i }tica baiana (e soteropolitana) sob constante agita\IeC {\c c}\IeC {\~a}o}{144}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Par\IeC {\^a}metros de an\IeC {\'a}lise}{145}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Consolida\IeC {\c c}\IeC {\~a}o republicana, vianismo, severinismo, marcelinismo (1889-1912)}{149}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}A turbulenta hegemonia seabrista (1912-1924)}{153}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}A inquieta consolida\IeC {\c c}\IeC {\~a}o calmonista (1924-1930)}{161}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}Tend\IeC {\^e}ncias a destacar no per\IeC {\'\i }odo}{166}{subsection.2.4.5}
+\contentsline {section}{\numberline {2.5}Espa\IeC {\c c}o intraurbano de Salvador em momento de reformas}{166}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Popula\IeC {\c c}\IeC {\~a}o e vetores de crescimento populacional}{167}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Regime fundi\IeC {\'a}rio, densidade imobili\IeC {\'a}ria e aproxima\IeC {\c c}\IeC {\~o}es ao valor da terra}{170}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Interven\IeC {\c c}\IeC {\~o}es no espa\IeC {\c c}o urbano e seus agentes}{174}{subsection.2.5.3}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Brotas: fronteira do urbano em Salvador}}{185}{chapter.3}
+\contentsline {section}{\numberline {3.1}Funda\IeC {\c c}\IeC {\~a}o e delimita\IeC {\c c}\IeC {\~a}o territorial da freguesia}{187}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Dos tempos pr\IeC {\'e}-cabralinos \IeC {\`a} funda\IeC {\c c}\IeC {\~a}o da freguesia}{187}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Da funda\IeC {\c c}\IeC {\~a}o da freguesia ao in\IeC {\'\i }cio do s\IeC {\'e}culo XIX}{190}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Uma descri\IeC {\c c}\IeC {\~a}o dos limites da freguesia (e uma cr\IeC {\'\i }tica)}{191}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Outras particularidades da freguesia no s\IeC {\'e}culo XIX}{194}{subsection.3.1.4}
+\contentsline {section}{\numberline {3.2}Pontos not\IeC {\'a}veis}{195}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Naturais}{195}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Religiosos}{199}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Civis}{206}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Caracteriza\IeC {\c c}\IeC {\~a}o socioecon\IeC {\^o}mica}{208}{section.3.3}
+\contentsline {section}{\numberline {3.4}Esbo\IeC {\c c}o de caracteriza\IeC {\c c}\IeC {\~a}o fundi\IeC {\'a}ria}{211}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}O morgado da Nisa, o morgado da Foz e o latif\IeC {\'u}ndio de Tom\IeC {\'a}s da Silva Paranhos}{212}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}O antigo 1\IeC {\textordmasculine } Distrito de Brotas: urbaniza\IeC {\c c}\IeC {\~a}o acelerada e enobrecimento a pulso}{219}{subsection.3.4.2}
+\contentsline {subsubsection}{\numberline {3.4.2.1}Pitangueiras}{220}{subsubsection.3.4.2.1}
+\contentsline {subsubsection}{\numberline {3.4.2.2}Castro Neves}{226}{subsubsection.3.4.2.2}
+\contentsline {subsubsection}{\numberline {3.4.2.3}Sangradouro}{230}{subsubsection.3.4.2.3}
+\contentsline {subsubsection}{\numberline {3.4.2.4}Ladeira do Fabr\IeC {\'\i }cio}{233}{subsubsection.3.4.2.4}
+\contentsline {subsubsection}{\numberline {3.4.2.5}Largo do Paranhos}{233}{subsubsection.3.4.2.5}
+\contentsline {subsection}{\numberline {3.4.3}A fazenda Boa Vista e seus arredores: transi\IeC {\c c}\IeC {\~a}o entre rural e urbano}{235}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}A Estrada de Brotas e seus arredores}{240}{subsection.3.4.4}
+\contentsline {subsubsection}{\numberline {3.4.4.1}Largo de Brotas e Cruz da Reden\IeC {\c c}\IeC {\~a}o}{242}{subsubsection.3.4.4.1}
+\contentsline {subsubsection}{\numberline {3.4.4.2}Cemit\IeC {\'e}rio de Brotas}{246}{subsubsection.3.4.4.2}
+\contentsline {subsubsection}{\numberline {3.4.4.3}Estrada e Alto do Beiju}{248}{subsubsection.3.4.4.3}
+\contentsline {subsubsection}{\numberline {3.4.4.4}Cruz das Almas}{249}{subsubsection.3.4.4.4}
+\contentsline {subsection}{\numberline {3.4.5}A Estrada Dois de Julho: elefante branco ou ermo dos pobres?}{253}{subsection.3.4.5}
+\contentsline {subsection}{\numberline {3.4.6}Mariquita: pesca, lazer e veraneio}{259}{subsection.3.4.6}
+\contentsline {subsection}{\numberline {3.4.7}O Matatu Grande, o Matatu Pequeno e a Quinta das Beatas}{260}{subsection.3.4.7}
+\contentsline {subsubsection}{\numberline {3.4.7.1}Quinta das Beatas: religi\IeC {\~a}o e latif\IeC {\'u}ndio}{263}{subsubsection.3.4.7.1}
+\contentsline {subsubsection}{\numberline {3.4.7.2}Matatu Grande e Matatu Pequeno: uma pequena \IeC {\'A}frica em Brotas?}{264}{subsubsection.3.4.7.2}
+\contentsline {subsection}{\numberline {3.4.8}A fazenda Torre e os remanescentes da fazenda Acupe}{269}{subsection.3.4.8}
+\contentsline {subsection}{\numberline {3.4.9}O Engenho Campinas: herdades e neg\IeC {\'o}cios de fam\IeC {\'\i }lia}{274}{subsection.3.4.9}
+\contentsline {subsection}{\numberline {3.4.10}As fazendas Alagoa, Amaralina, Santa Cruz, Ubarana e Pituba: terras em disputa}{278}{subsection.3.4.10}
+\contentsline {subsubsection}{\numberline {3.4.10.1}Fazendas Alagoa e Amaralina: pesca e pecu\IeC {\'a}ria}{280}{subsubsection.3.4.10.1}
+\contentsline {subsubsection}{\numberline {3.4.10.2}Fazenda Santa Cruz: \IeC {\'a}rea interna da localidade}{284}{subsubsection.3.4.10.2}
+\contentsline {subsubsection}{\numberline {3.4.10.3}Fazenda Ubarana: transi\IeC {\c c}\IeC {\~a}o entre Amaralina e Pituba}{284}{subsubsection.3.4.10.3}
+\contentsline {subsubsection}{\numberline {3.4.10.4}Fazenda Pituba: hist\IeC {\'o}ria pregressa de um bairro}{287}{subsubsection.3.4.10.4}
+\contentsline {subsection}{\numberline {3.4.11}Arma\IeC {\c c}\IeC {\~o}es e Engenho Santo Ant\IeC {\^o}nio: \IeC {\'u}ltimas fronteiras de Brotas}{289}{subsection.3.4.11}
+\contentsline {subsection}{\numberline {3.4.12}Evolu\IeC {\c c}\IeC {\~a}o comparada da urbaniza\IeC {\c c}\IeC {\~a}o: o Livro de Registro de Terras (1858-1862) e as d\IeC {\'e}cimas urbanas (1886-1891)}{292}{subsection.3.4.12}
+\contentsline {section}{\numberline {3.5}Usos do espa\IeC {\c c}o}{295}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Usos pontuais}{295}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Ref\IeC {\'u}gio contra a escravid\IeC {\~a}o}{296}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}Palco de festas}{299}{subsection.3.5.3}
+\contentsline {section}{\numberline {3.6}\(\dots \)e Brotas chega \IeC {\`a} Rep\IeC {\'u}blica}{301}{section.3.6}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Brotas e as reformas urbanas da Rep\IeC {\'u}blica Velha}}{308}{chapter.4}
+\contentsline {section}{\numberline {4.1}Investimentos p\IeC {\'u}blicos}{312}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Arruamento e pavimenta\IeC {\c c}\IeC {\~a}o}{313}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Saneamento, esgotamento e abastecimento de \IeC {\'a}gua}{316}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Ilumina\IeC {\c c}\IeC {\~a}o p\IeC {\'u}blica, energia el\IeC {\'e}trica, telefonia e tel\IeC {\'e}grafos}{319}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Transporte p\IeC {\'u}blico}{323}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Sentido dos investimentos em infraestrutura urbana no distrito}{325}{subsection.4.1.5}
+\contentsline {section}{\numberline {4.2}A\IeC {\c c}\IeC {\~a}o privada}{326}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Engenheiros, arquitetos, construtores e a produ\IeC {\c c}\IeC {\~a}o do espa\IeC {\c c}o urbano em Brotas}{326}{subsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1.1}Cen\IeC {\'a}rios da reserva de mercado}{328}{subsubsection.4.2.1.1}
+\contentsline {subsubsection}{\numberline {4.2.1.2}Os gestores, a higiene, a est\IeC {\'e}tica e a pol\IeC {\'\i }cia arquitet\IeC {\^o}nica}{334}{subsubsection.4.2.1.2}
+\contentsline {subsection}{\numberline {4.2.2}Que apropria\IeC {\c c}\IeC {\~a}o da terra em Brotas?}{339}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Loca\IeC {\c c}\IeC {\~a}o: forma principal de acesso \IeC {\`a} terra e \IeC {\`a} moradia}{345}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Loteamentos e parcelamentos: por que t\IeC {\~a}o poucos?}{347}{subsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.4.1}Loteamentos e parcelamentos formais}{353}{subsubsection.4.2.4.1}
+\contentsline {subsubsection}{\numberline {4.2.4.2}Loteamentos e parcelamentos informais}{360}{subsubsection.4.2.4.2}
+\contentsline {subsection}{\numberline {4.2.5}Constru\IeC {\c c}\IeC {\~o}es, amplia\IeC {\c c}\IeC {\~o}es, reformas: urbaniza\IeC {\c c}\IeC {\~a}o desigual e a passos lentos}{362}{subsection.4.2.5}
+\contentsline {subsubsection}{\numberline {4.2.5.1}Antigo 1\IeC {\textordmasculine } Distrito}{365}{subsubsection.4.2.5.1}
+\contentsline {subsubsection}{\numberline {4.2.5.2}Boa Vista e Engenho Velho}{376}{subsubsection.4.2.5.2}
+\contentsline {subsubsection}{\numberline {4.2.5.3}Estrada Dois de Julho}{388}{subsubsection.4.2.5.3}
+\contentsline {subsubsection}{\numberline {4.2.5.4}Estrada de Brotas}{396}{subsubsection.4.2.5.4}
+\contentsline {subsubsection}{\numberline {4.2.5.5}Mariquita}{403}{subsubsection.4.2.5.5}
+\contentsline {subsubsection}{\numberline {4.2.5.6}Matatu}{411}{subsubsection.4.2.5.6}
+\contentsline {subsubsection}{\numberline {4.2.5.7}Acupe}{417}{subsubsection.4.2.5.7}
+\contentsline {subsubsection}{\numberline {4.2.5.8}Alagoa, Amaralina, Santa Cruz, Ubarana, Pituba}{421}{subsubsection.4.2.5.8}
+\contentsline {subsubsection}{\numberline {4.2.5.9}Campinas, Arma\IeC {\c c}\IeC {\~o}es e V\IeC {\'a}rzea de Santo Ant\IeC {\^o}nio}{430}{subsubsection.4.2.5.9}
+\contentsline {subsection}{\numberline {4.2.6}Sentido da a\IeC {\c c}\IeC {\~a}o privada no distrito}{434}{subsection.4.2.6}
+\contentsline {section}{\numberline {4.3}Outros usos do espa\IeC {\c c}o em Brotas}{436}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Candombl\IeC {\'e}s}{438}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Eventos c\IeC {\'\i }vico-pol\IeC {\'\i }ticos}{441}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Eventos religiosos, festivos e carnaval}{442}{subsection.4.3.3}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{CONCLUS\IeC {\~A}O}{444}{chapter*.111}
+\contentsline {subsection}{\numberline {4.3.4}Natureza das press\IeC {\~o}es por investimentos p\IeC {\'u}blicos}{448}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Natureza das press\IeC {\~o}es por determinada ordem e sentido no espa\IeC {\c c}o p\IeC {\'u}blico}{448}{subsection.4.3.5}
+\contentsline {subsection}{\numberline {4.3.6}Houve influ\IeC {\^e}ncia da produ\IeC {\c c}\IeC {\~a}o do espa\IeC {\c c}o em Brotas sobre as reformas\\ urbanas de Salvador?}{448}{subsection.4.3.6}
+\contentsline {subsection}{\numberline {4.3.7}Houve influ\IeC {\^e}ncia da produ\IeC {\c c}\IeC {\~a}o do espa\IeC {\c c}o pelas reformas de J. J. Seabra\\sobre Brotas?}{449}{subsection.4.3.7}
+\vspace {\cftbeforechapterskip }
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{452}{section*.114}
+\renewcommand *{\cftappendixname }{AP\^ENDICE \space }
+\setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
+\cftinsert {A}
+\contentsline {part}{\uppercase {Ap\^endices}}{492}{section*.115}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Sobre top\IeC {\^o}nimos e certas liberalidades no uso de mapas}}{493}{appendix.A}
+\cftinsert {AAA}
+\renewcommand *{\cftappendixname }{ANEXO \space }
+\setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
+\cftinsert {A}
+\contentsline {part}{\uppercase {Anexos}}{499}{section*.116}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Ficha de coleta de informa\IeC {\c c}\IeC {\~o}es sobre os processos de licen\IeC {\c c}a de obra}}{500}{appendix.anexochapback.1}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Propriet\IeC {\'a}rios de terras em Brotas (1858-1862)}}{501}{appendix.anexochapback.2}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Propriet\IeC {\'a}rios rurais de Brotas em 1920}}{505}{appendix.anexochapback.3}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {D}\MakeTextUppercase {Engenheiros, arquitetos e construtores atuantes em Brotas (1889-1930)}}{506}{appendix.anexochapback.4}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {E}\MakeTextUppercase {Nomes antigos e modernos dos logradouros de Brotas}}{509}{appendix.anexochapback.5}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {F}\MakeTextUppercase {Mapas}}{512}{appendix.anexochapback.6}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {G}\MakeTextUppercase {Plantas selecionadas de obras no antigo 1\IeC {\textordmasculine } Distrito}}{521}{appendix.anexochapback.7}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {H}\MakeTextUppercase {Plantas selecionadas de obras na Boa Vista, no Engenho Velho de Brotas e vizinhan\IeC {\c c}a}}{523}{appendix.anexochapback.8}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {I}\MakeTextUppercase {Plantas selecionadas de obras na Estrada de Brotas e vizinhan\IeC {\c c}a}}{524}{appendix.anexochapback.9}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {J}\MakeTextUppercase {Plantas selecionadas de obras na Estrada Dois de Julho e vizinhan\IeC {\c c}a}}{525}{appendix.anexochapback.10}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {K}\MakeTextUppercase {Plantas selecionadas de obras na Mariquita e vizinhan\IeC {\c c}a}}{526}{appendix.anexochapback.11}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {L}\MakeTextUppercase {Plantas selecionadas de obras no Matatu Grande, Matatu Pequeno, Quinta das Beatas e vizinhan\IeC {\c c}a}}{527}{appendix.anexochapback.12}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {M}\MakeTextUppercase {Plantas selecionadas de obras no Acupe e vizinhan\IeC {\c c}a}}{528}{appendix.anexochapback.13}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {N}\MakeTextUppercase {Plantas selecionadas de obras nas antigas fazendas Alagoa, Amaralina, Santa Cruz, Ubarana e Pituba}}{529}{appendix.anexochapback.14}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {O}\MakeTextUppercase {Documentos selecionados}}{538}{appendix.anexochapback.15}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {P}\MakeTextUppercase {``A Boa Vista'', por Castro Alves}}{539}{appendix.anexochapback.16}
