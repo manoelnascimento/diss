@@ -1,0 +1,276 @@
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+
+## Intermediate documents:
+*.dvi
+*-converted-to.*
+# these rules might exclude image files for figures etc.
+*.ps
+*.eps
+*.pdf
+
+## Generated if empty string is given at "Please type another file name for output:"
+.pdf
+
+## Bibliography auxiliary files (bibtex/biblatex/biber):
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.brf
+*.run.xml
+
+## Build tool auxiliary files:
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+## Auxiliary and intermediate files from other packages:
+# algorithms
+*.alg
+*.loa
+
+# achemso
+acs-*.bib
+
+# amsthm
+*.thm
+
+# beamer
+*.nav
+*.snm
+*.vrb
+
+# cprotect
+*.cpt
+
+# fixme
+*.lox
+
+#(r)(e)ledmac/(r)(e)ledpar
+*.end
+*.?end
+*.[1-9]
+*.[1-9][0-9]
+*.[1-9][0-9][0-9]
+*.[1-9]R
+*.[1-9][0-9]R
+*.[1-9][0-9][0-9]R
+*.eledsec[1-9]
+*.eledsec[1-9]R
+*.eledsec[1-9][0-9]
+*.eledsec[1-9][0-9]R
+*.eledsec[1-9][0-9][0-9]
+*.eledsec[1-9][0-9][0-9]R
+
+# glossaries
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+*.glsdefs
+
+# gnuplottex
+*-gnuplottex-*
+
+# gregoriotex
+*.gaux
+*.gtex
+
+# hyperref
+*.brf
+
+# knitr
+*-concordance.tex
+# TODO Comment the next line if you want to keep your tikz graphics files
+*.tikz
+*-tikzDictionary
+
+# listings
+*.lol
+
+# makeidx
+*.idx
+*.ilg
+*.ind
+*.ist
+
+# minitoc
+*.maf
+*.mlf
+*.mlt
+*.mtc
+*.mtc[0-9]
+*.mtc[1-9][0-9]
+
+# minted
+_minted*
+*.pyg
+
+# morewrites
+*.mw
+
+# mylatexformat
+*.fmt
+
+# nomencl
+*.nlo
+
+# sagetex
+*.sagetex.sage
+*.sagetex.py
+*.sagetex.scmd
+
+# scrwfile
+*.wrt
+
+# sympy
+*.sout
+*.sympy
+sympy-plots-for-*.tex/
+
+# pdfcomment
+*.upa
+*.upb
+
+# pythontex
+*.pytxcode
+pythontex-files-*/
+
+# thmtools
+*.loe
+
+# TikZ & PGF
+*.dpth
+*.md5
+*.auxlock
+
+# todonotes
+*.tdo
+
+# easy-todo
+*.lod
+
+# xindy
+*.xdy
+
+# xypic precompiled matrices
+*.xyc
+
+# endfloat
+*.ttt
+*.fff
+
+# Latexian
+TSWLatexianTemp*
+
+## Editors:
+# WinEdt
+*.bak
+*.sav
+
+# Texpad
+.texpadtmp
+
+# Kile
+*.backup
+
+# KBibTeX
+*~[0-9]*
+
+<<<<<<< HEAD
+**/*.ps
+**/*.eps
+/tex/0-pre-textuais/agradecimentos.aux
+/tex/0-pre-textuais/dedicatoria.aux
+/tex/0-pre-textuais/epigrafe.aux
+/tex/0-pre-textuais/fichacatal.aux
+/tex/0-pre-textuais/folhadeaprova.aux
+/tex/0-pre-textuais/resumos.aux
+/tex/0-pre-textuais/siglas.aux
+/tex/1-intro/intro.aux
+/tex/2-cap1/cap01.aux
+/tex/2-cap1/complementos/tabelas/.~lock.bachareis em direito 1891-1930.ods#
+/tex/2-cap1/texto/02-insbras.tex.orig
+/tex/6-refbib/biblioteca-old.bib.orig
+/tex/3-cap2/cap02.aux
+/tex/3-cap2/texto/04-carfund.log
+/tex/3-cap2/complementos/tabelas/decurb-1886-1891.tex~
+/tex/3-cap2/complementos/mapas/georreferenciamento/brotas-weyll.qgs
+/tex/3-cap2/complementos/mapas/georreferenciamento/brotas-weyll.qgs~
+/tex/3-cap2/complementos/mapas/georreferenciamento/weyll/1855weyll-brotassegundodezfreguesias.jpg
+/tex/3-cap2/complementos/mapas/georreferenciamento/weyll/1855weyll-brotassegundoweyll.jpg
+/tex/3-cap2/complementos/mapas/georreferenciamento/weyll/1855weyll.jpg
+/tex/3-cap2/complementos/mapas/georreferenciamento/weyll/1855weyll.jpg.points
+/tex/3-cap2/complementos/mapas/georreferenciamento/weyll/1855weyll_modificado.tif
+/tex/4-cap3/cap03.aux
+/tex/4-cap3/complementos/tabelas/taxalocação1893.tex~
+/tex/4-cap3/complementos/tabelas/.~lock.construcoes-ruaedecada.ods#
+/tex/4-cap3/complementos/tabelas/calcamento1929.tex~
+/tex/4-cap3/complementos/tabelas/engenheiros.tex~
+/tex/4-cap3/complementos/tabelas/ruasedecadas01-primeirodistrito.tex~
+/tex/4-cap3/complementos/tabelas/ruasedecadas02-boavista.tex~
+/tex/4-cap3/complementos/tabelas/ruasedecadas03-estbrotas.tex~
+/tex/4-cap3/complementos/tabelas/ruasedecadas04-e2j.tex~
+/tex/4-cap3/complementos/tabelas/ruasedecadas05-mariquita.tex~
+/tex/4-cap3/complementos/tabelas/ruasedecadas06-matatu.tex~
+/tex/4-cap3/complementos/tabelas/ruasedecadas07-acupe.tex~
+/tex/4-cap3/complementos/tabelas/ruasedecadas08-campinas.tex~
+/tex/4-cap3/complementos/tabelas/ruasedecadas09-alagoapituba.tex~
+/tex/4-cap3/complementos/tabelas/ruasedecadas10-armavargem.tex~
+/tex/4-cap3/complementos/tabelas/ruasedecadas11-total.tex~
+/tex/4-cap3/complementos/imagens/1910-dique-rbc.xcf
+/tex/4-cap3/complementos/imagens/1926-e2j-rbc.xcf
+/tex/4-cap3/complementos/imagens/19xx-estbrotas-rbc.xcf
+/tex/5-concl/concl.aux
+/tex/6-refbib/10.2307_985951.bib
+/tex/7-apendices/apendices.aux
+/tex/8-anexos/anexos.aux
+/tex/8-anexos/mapas/1839-beaurepairerohan-georreferenciado.tif
+/tex/8-anexos/mapas/1969-mapaprefeitura-bkp-georreferenciado.tif
+/tex/8-anexos/mapas/2019-salvador.qgs~
+/tex/2-cap1/complementos/mapas/1839-beaurepairerohan-recorte.xcf
+/tex/2-cap1/complementos/mapas/1899-theodorosampaio-recorte.xcf
+/tex/2-cap1/complementos/mapas/1899-theodorosampaio.xcf
+/tex/3-cap2/complementos/mapas/0036.tif
+/tex/3-cap2/complementos/mapas/0041.tif
+/tex/3-cap2/complementos/mapas/georreferenciamento/mariquita/mariquita
+/tex/3-cap2/complementos/mapas/georreferenciamento/mariquita/mariquita-1851.qgs~
+/tex/3-cap2/complementos/mapas/georreferenciamento/mariquita/mariquita-1851.xcf
+/tex/3-cap2/complementos/mapas/georreferenciamento/mariquita/mariquita-2016.qgs~
+/tex/4-cap3/complementos/imagens/1948-campinas-recorte.xcf
+/tex/4-cap3/complementos/imagens/1948-campinas.xcf
+/tex/4-cap3/complementos/plantas/cervejariaantarctica.xcf
+/tex/4-cap3/complementos/plantas/santacruz-azul.xcf
+/tex/4-cap3/complementos/plantas/santacruz-seda.xcf
+/tex/4-cap3/texto/intestimentospublicos.tex
+/tex/8-anexos/mapas/1899-theodorosampaio-recorte.xcf
+/tex/8-anexos/mapas/1899-theodorosampaio.xcf
+/tex/8-anexos/mapas/1955-cosmedefarias.xcf
+/tex/8-anexos/mapas/1955-engenhovelho.xcf
+/tex/8-anexos/mapas/1955-ladeiradopepino.xcf
+/tex/8-anexos/mapas/1955-ladeiradosbandeirantes.xcf
+/tex/8-anexos/mapas/1969-mapaprefeitura-modif.xcf
+/tex/8-anexos/mapas/1969-mapaprefeitura.xcf
+
+=======
+20150721-odete
+grandes
+testes
+teste*.*
+>>>>>>> d7163cc8e41acc0c13f2d33b8ea3bb69e22f4e46
