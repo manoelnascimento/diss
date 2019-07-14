@@ -174,7 +174,7 @@ sleep 5
 echo Checando a situação de capitulosprontos. Aguarde...
 sleep 5
 git status capitulosprontos 
-echo Preparando o commit para o ramo odeterevisa. Aguarde...
+echo Preparando o commit para o ramo capitulosprontos. Aguarde...
 sleep 5
 git commit -m "$data $USER $HOSTNAME"
 echo Pronto!
@@ -186,7 +186,7 @@ sleep 5
 while true; do
     read -p "Quer tentar enviar para o repositório remoto?" sn
     case $sn in
-        [Ss]* ) git push origin capitulosprontos;;
+        [Ss]* ) git push origin capitulosprontos && exit;;
         [Nn]* ) exit;;
         * ) echo "Por favor, responda com 'sim' (s) ou 'não' (n).";;
     esac
