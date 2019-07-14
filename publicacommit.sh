@@ -186,7 +186,7 @@ sleep 5
 while true; do
     read -p "Quer tentar enviar para o repositório remoto?" sn
     case $sn in
-        [Ss]* ) git push;;
+        [Ss]* ) git push origin capitulosprontos;;
         [Nn]* ) exit;;
         * ) echo "Por favor, responda com 'sim' (s) ou 'não' (n).";;
     esac
