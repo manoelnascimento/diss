@@ -177,7 +177,8 @@ git status capitulosprontos
 echo Preparando o commit para o ramo capitulosprontos. Aguarde...
 sleep 5
 read -p "Escreva resumidamente o que mudou: " mensagem 
-git commit -m "$data $USER $HOSTNAME\n\n$mensagem"
+git commit -m "$data $USER $HOSTNAME
+$mensagem"
 echo Pronto!
 sleep 5
 
@@ -187,10 +188,10 @@ sleep 5
 while true; do
     read -p "Quer tentar enviar para o repositório remoto?" sn
     case $sn in
-        [Ss]* ) git push origin capitulosprontos && exit;;
+        [Ss]* ) git push origin capitulosprontos && echo Processo encerrado! Lembre-se de checar o repositório remoto para ver se está tudo bem. && sleep 10 && exit;;
         [Nn]* ) exit;;
         * ) echo "Por favor, responda com 'sim' (s) ou 'não' (n).";;
     esac
 done
-echo Processo encerrado! Lembre-se de checar o repositório remoto para ver se está tudo bem.
+
 exit
