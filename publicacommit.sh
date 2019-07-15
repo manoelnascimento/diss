@@ -176,7 +176,8 @@ sleep 5
 git status capitulosprontos 
 echo Preparando o commit para o ramo capitulosprontos. Aguarde...
 sleep 5
-git commit -m "$data $USER $HOSTNAME"
+read -p "Escreva resumidamente o que mudou: " mensagem 
+git commit -m "$data $USER $HOSTNAME\n\n$mensagem"
 echo Pronto!
 sleep 5
 
