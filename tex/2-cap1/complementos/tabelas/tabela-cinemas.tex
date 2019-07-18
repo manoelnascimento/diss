@@ -1,11 +1,18 @@
 \begin{table}[!htp]
 \IBGEtab{\caption{Nome, endereço, data de abertura e de fechamento de salas de cinema em Salvador (1897-1930)}\label{tab:cinemas}}{
-\begin{minipage}{0.9\textwidth}
-\begin{tiny}
-\begin{longtabu} to \textheight {m{3cm} m{9cm} m{1cm} m{1cm}}
-\hline Nome & Endereço & Abriu & Fechou \\ \hline \endhead
-\hline \multicolumn{4}{c}{Continua na próxima página...} \\ \endfoot
-\hline \endlastfoot
+% \begin{minipage}{0.9\textwidth}
+% ---
+% Ambiente longtabu removido
+% \begin{tiny}
+%\begin{longtabu} to \textheight {m{3cm} m{9cm} m{1cm} m{1cm}}
+% ---
+\begin{tabular}{cm{6cm}cc}
+\toprule
+Nome & Endereço & Abriu & Fechou \\ % \hline \endhead
+% \hline \multicolumn{4}{c}{Continua na próxima página...} \\ \endfoot
+% \hline \endlastfoot
+\midrule
+\midrule
 Edison & Praça Castro Alves, por cima da Confeitaria Luso-Brasileira & 1898 & 1906 \\
 Cassino Castro Alves & Praça Castro Alves, onde depois foi instalado o Teatro Guarani & 1903 & 1906 \\
 Santo Antonio & Praça Barão do Triunfo (antigo Largo do Santo Antônio) & 1907 & 1907 \\
@@ -38,10 +45,11 @@ Cinema Itapagipe & Rua do Poço, nº 155 & 1920 & \\
 Cinema Liceu & Rua do Liceu & 1921 & \\
 Politeama Baiano & Politeama & 1897 & \\
 Teatro São João & Praça Castro Alves & 1899 & 1911 \\
-\hline
-\end{longtabu}
-\end{tiny}
-\end{minipage}
+\bottomrule
+\end{tabular}
+% \end{longtabu}
+% \end{tiny}
+% \end{minipage}
 }
-{\fonte{\cite{boccanera_teatro_2008}}}
+{\fonte{\citeonline{boccanera_teatro_2008}}}
 \end{table}
