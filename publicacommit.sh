@@ -102,10 +102,20 @@ echo Pronto!
 ## Cópia do conteúdo da pasta 8-anexos
 echo Copiando o conteúdo da pasta 8-anexos. Aguarde...
 sleep 5
+cat ~/Mestrado/arquitetura/desastre/8-anexos/anexos.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/anexos.tex &
 cat ~/Mestrado/arquitetura/desastre/8-anexos/tabelas/1858-registroterrasbrotas.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/tabelas/1858-registroterrasbrotas.tex &
 cat ~/Mestrado/arquitetura/desastre/8-anexos/tabelas/prop-rurais-ssa-1920.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/tabelas/prop-rurais-ssa-1920.tex &
 cat ~/Mestrado/arquitetura/desastre/8-anexos/tabelas/tabela-cinemas-comnotas.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/tabelas/tabela-cinemas-comnotas.tex &
-cat ~/Mestrado/arquitetura/desastre/8-anexos/tabelas/tabela-ruasdebrotas-guiadesalvador1935.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/tabelas/tabela-ruasdebrotas-guiadesalvador1935.tex &
+cat ~/Mestrado/arquitetura/desastre/8-anexos/texto/documentos.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/texto/documentos.tex &
+cat ~/Mestrado/arquitetura/desastre/8-anexos/texto/mapas.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/texto/mapas.tex &
+cat ~/Mestrado/arquitetura/desastre/8-anexos/texto/01-1distrito.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/texto/01-1distrito.tex &
+cat ~/Mestrado/arquitetura/desastre/8-anexos/texto/02-boavista.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/texto/02-boavista.tex &
+cat ~/Mestrado/arquitetura/desastre/8-anexos/texto/03-estbrotas.tex > ~/Mestrado/arquitetura/diss/tex/texto/03-estbrotas.tex &
+cat ~/Mestrado/arquitetura/desastre/8-anexos/texto/04-e2j.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/texto/04-e2j.tex &
+cat ~/Mestrado/arquitetura/desastre/8-anexos/texto/05-mariquita.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/texto/05-mariquita.tex &
+cat ~/Mestrado/arquitetura/desastre/8-anexos/texto/06-matatu.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/texto/06-matatu.tex &
+cat ~/Mestrado/arquitetura/desastre/8-anexos/texto/07-acupe.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/texto/07-acupe.tex &
+cat ~/Mestrado/arquitetura/desastre/8-anexos/texto/08-amaralina.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/texto/08-amaralina.tex &
 echo Pronto!
 
 ### Preparar novo commit para o GIT
@@ -159,6 +169,7 @@ git add tex/7-apendices/apendices.tex
 git add tex/7-apendices/texto/criticachicodeoliveira.tex
 git add tex/7-apendices/texto/gestores.tex
 git add tex/7-apendices/texto/mapas.tex
+git add tex/8-anexos/anexos.tex
 git add tex/8-anexos/tabelas/1858-registroterrasbrotas.tex
 git add tex/8-anexos/tabelas/prop-rurais-ssa-1920.tex
 git add tex/8-anexos/tabelas/tabela-cinemas-comnotas.tex
@@ -167,7 +178,18 @@ git add tex/8-anexos/tabelas/1858-registroterrasbrotas.tex
 git add tex/8-anexos/tabelas/prop-rurais-ssa-1920.tex
 git add tex/8-anexos/tabelas/tabela-cinemas-comnotas.tex
 git add tex/8-anexos/tabelas/tabela-ruasdebrotas-guiadesalvador1935.tex
+git add tex/8-anexos/texto/documentos.tex
+git add tex/8-anexos/texto/mapas.tex
+git add tex/8-anexos/texto/01-1distrito.tex
+git add tex/8-anexos/texto/02-boavista.tex
+git add tex/8-anexos/texto/03-estbrotas.tex
+git add tex/8-anexos/texto/04-e2j.tex
+git add tex/8-anexos/texto/05-mariquita.tex
+git add tex/8-anexos/texto/06-matatu.tex
+git add tex/8-anexos/texto/07-acupe.tex
+git add tex/8-anexos/texto/08-amaralina.tex
 git add publicacommit.sh
+
 echo Pronto!
 sleep 5
 
