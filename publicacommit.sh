@@ -110,7 +110,7 @@ cat ~/Mestrado/arquitetura/desastre/8-anexos/texto/documentos.tex > ~/Mestrado/a
 cat ~/Mestrado/arquitetura/desastre/8-anexos/texto/mapas.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/texto/mapas.tex &
 cat ~/Mestrado/arquitetura/desastre/8-anexos/texto/01-1distrito.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/texto/01-1distrito.tex &
 cat ~/Mestrado/arquitetura/desastre/8-anexos/texto/02-boavista.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/texto/02-boavista.tex &
-cat ~/Mestrado/arquitetura/desastre/8-anexos/texto/03-estbrotas.tex > ~/Mestrado/arquitetura/diss/tex/texto/03-estbrotas.tex &
+cat ~/Mestrado/arquitetura/desastre/8-anexos/texto/03-estbrotas.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/texto/03-estbrotas.tex &
 cat ~/Mestrado/arquitetura/desastre/8-anexos/texto/04-e2j.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/texto/04-e2j.tex &
 cat ~/Mestrado/arquitetura/desastre/8-anexos/texto/05-mariquita.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/texto/05-mariquita.tex &
 cat ~/Mestrado/arquitetura/desastre/8-anexos/texto/06-matatu.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/texto/06-matatu.tex &
