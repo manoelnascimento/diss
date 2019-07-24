@@ -116,6 +116,18 @@ cat ~/Mestrado/arquitetura/desastre/8-anexos/texto/05-mariquita.tex > ~/Mestrado
 cat ~/Mestrado/arquitetura/desastre/8-anexos/texto/06-matatu.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/texto/06-matatu.tex &
 cat ~/Mestrado/arquitetura/desastre/8-anexos/texto/07-acupe.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/texto/07-acupe.tex &
 cat ~/Mestrado/arquitetura/desastre/8-anexos/texto/08-amaralina.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/texto/08-amaralina.tex &
+cat ~/Mestrado/arquitetura/desastre/8-anexos/plantas/01-casaterrea.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/plantas/01-casaterrea.tex &
+cat ~/Mestrado/arquitetura/desastre/8-anexos/plantas/02-casadeandar.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/plantas/02-casadeandar.tex &
+cat ~/Mestrado/arquitetura/desastre/8-anexos/plantas/03-casadetaipa.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/plantas/03-casadetaipa.tex &
+cat ~/Mestrado/arquitetura/desastre/8-anexos/plantas/04-casadefazenda.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/plantas/04-casadefazenda.tex &
+cat ~/Mestrado/arquitetura/desastre/8-anexos/plantas/05-casacomercial.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/plantas/05-casacomercial.tex &
+cat ~/Mestrado/arquitetura/desastre/8-anexos/plantas/06-casamista.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/plantas/06-casamista.tex &
+cat ~/Mestrado/arquitetura/desastre/8-anexos/plantas/07-casaparaoperarios.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/plantas/07-casaparaoperarios.tex &
+cat ~/Mestrado/arquitetura/desastre/8-anexos/plantas/08-casadepraia.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/plantas/08-casadepraia.tex &
+cat ~/Mestrado/arquitetura/desastre/8-anexos/plantas/09-disputadeterras.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/plantas/09-disputadeterras.tex &
+cat ~/Mestrado/arquitetura/desastre/8-anexos/plantas/10-reformas.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/plantas/10-reformas.tex &
+cat ~/Mestrado/arquitetura/desastre/8-anexos/plantas/11-casasdepe.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/plantas/11-casasdepe.tex &
+cat ~/Mestrado/arquitetura/desastre/8-anexos/plantas/12-curiosidades.tex > ~/Mestrado/arquitetura/diss/tex/8-anexos/plantas/12-curiosidades.tex &
 echo Pronto!
 
 ### Preparar novo commit para o GIT
@@ -188,6 +200,18 @@ git add tex/8-anexos/texto/05-mariquita.tex
 git add tex/8-anexos/texto/06-matatu.tex
 git add tex/8-anexos/texto/07-acupe.tex
 git add tex/8-anexos/texto/08-amaralina.tex
+git add tex/8-anexos/plantas/01-casaterrea.tex
+git add tex/8-anexos/plantas/02-casadeandar.tex
+git add tex/8-anexos/plantas/03-casadetaipa.tex
+git add tex/8-anexos/plantas/04-casadefazenda.tex
+git add tex/8-anexos/plantas/05-casacomercial.tex
+git add tex/8-anexos/plantas/06-casamista.tex
+git add tex/8-anexos/plantas/07-casaparaoperarios.tex
+git add tex/8-anexos/plantas/08-casadepraia.tex
+git add tex/8-anexos/plantas/09-disputadeterras.tex
+git add tex/8-anexos/plantas/10-reformas.tex
+git add tex/8-anexos/plantas/11-casasdepe.tex
+git add tex/8-anexos/plantas/12-curiosidades.tex
 git add publicacommit.sh
 
 echo Pronto!
