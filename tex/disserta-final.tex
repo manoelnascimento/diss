@@ -40,7 +40,7 @@
 \usepackage{makeidx}			% Cria o índice no final
 % \usepackage{multind}			% Cria índices múltiplos no final
 % \usepackage{bibtopic}		% Separa a bibliografia por tópicos
-% \usepackage[style=abnt,backend=biber]{biblatex}
+% \usepackage[backend=biber,style=abnt,justify,backref=true,backrefstyle=three,citecount=true,extrayear,comp,parentracker=false,sorting=none]{biblatex}
 \usepackage{nomencl} 			% Lista de simbolos
 \usepackage{UFBA}
 \usepackage{afterpage}
@@ -49,14 +49,14 @@
 % ---
 % Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
 % ---
-\usepackage{lipsum}				% para geração de dummy text
+% \usepackage{lipsum}				% para geração de dummy text
 % ---
 
 % ---
-% Pacotes de citações
+% Pacotes de citações (somente para uso com abntex2cite; desativar se usar biblatex)
 % ---
- \usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
- \usepackage[alf,abnt-full-initials=yes,abnt-repeated-author-omit=yes,abnt-emphasize=bf,abnt-missing-year=sd]{abntex2cite}	% Citações padrão ABNT
+\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf,abnt-full-initials=yes,abnt-repeated-author-omit=yes,abnt-emphasize=bf,abnt-missing-year=sd]{abntex2cite}	% Citações padrão ABNT
 
 % ---
 % Pacote para alinhar itens numerados e sem número igualmente no índice
@@ -72,11 +72,11 @@
 % ---
 % Configurações do pacote backref
 % Usado sem a opção hyperpageref de backref
- \renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
 % Texto padrão antes do número das páginas
 \renewcommand{\backref}{}
 % Define os textos da citação
- \renewcommand*{\backrefalt}[4]{
+\renewcommand*{\backrefalt}[4]{
 	\ifcase #1 %
 		Nenhuma citação no texto.%
 	\or
@@ -95,6 +95,15 @@
 % ---
 
 % --- 
+% Troca de comandos do ABNTeX para compatibilidade com BibLaTeX 
+% ---
+% \renewcommand{\citeonline}[1]{\textcite{#1}}
+% \renewcommand\citeonline{\textcite}
+% \AtBeginDocument{\renewcommand\citeonline{\textcite}}
+% \let\citeonline\textcite
+% ---
+
+% --- 
 % Ambiente A3 Paisagem (insere páginas A3 em modo paisagem ("deitado") no meio do documento)
 % ---
 \newenvironment{a3paisagem} % ambiente personalizado para inserir uma página A3 no meio de um documento com páginas em tamanho A4
@@ -105,6 +114,34 @@
    } % fecha o ambiente e retorna ao tamanho A4
 % ---
 
+% --- 
+% "Ver também" em destaque (1ª versão)
+% ---
+% \newcommand{\gobblecomma}[1]{\ignorespaces}
+% \providecommand{\indexalso}[2]{%
+%     \index{#1!zzzzz@\gobblecomma|seealso{#2}}}
+% ---
+
+% --- 
+% "Ver também" em destaque (2ª versão)
+% ---
+% \def\igobble#1 {}
+% ---
+
+% --- 
+% "Ver também" em destaque (3ª versão)
+% ---
+\newcommand\gobbleone[1]{}
+\newcommand{\seeonly}[2]{\ (\emph{\seename} #1)}
+\newcommand{\also}[2]{\unskip(\emph{\alsoname} #1)}
+\newcommand{\Also}[2]{\unskip\emph{Veja também} #1}
+\let\oldindex\index
+\renewcommand{\index}[1]{\def\exptoindex{#1}\expandafter\oldindex\expandafter{\exptoindex}}
+
+\newcommand{\seeonlyindex}[2]{\index{#1@#1\protect\gobbleone|seeonly{#2}}}
+\newcommand{\alsoindex}[2]{\index{#1!zzzz@\protect\gobbleone|also{#2}}}
+\newcommand{\Alsoindex}[2]{\index{#1!zzzz@\protect\gobbleone|Also{#2}}}
+% ---
 
 % ---
 % Informações de dados para CAPA e FOLHA DE ROSTO
@@ -281,7 +318,9 @@
 % Referências bibliográficas
 % ----------------------------------------------------------
 
+% ---
 % Usando biblatex para várias seções (tem que tirar o abntex2cite)
+% ---
 
 % \addbibresource{6.refbib/biblioteca.bib}
 % \phantomsection
@@ -293,41 +332,45 @@
 % \phantomsection
 % \printbibliography[title={Outros},nottype=unpublished,nottype=article,nottype=mastersthesis,nottype=phdthesis,nottype=book,nottype=inbook,nottype=mvbook,nottype=collection,nottype=incollection,nottype=mvcollection]
 
-% Usando abntex2cite (uma só seção, corrida)
+% ---
+% Usando abntex2cite (uma só seção, corrida, melhor para abntex)
+% ---
 
 \bibliography{6-refbib/biblioteca-old}
 
+% ---
 % Usando bibtopic (várias seções)
+% ---
 
 % \section{Referências}
-% \begin{btSect}{6.refbib/primarias}
-%  \subsection{Fontes primárias}
-%  \btPrintCited
-% \end{btSect}
-% \begin{btSect}{6.refbib/legis}
-%  \subsection{Legislação}
-%  \btPrintCited
-% \end{btSect}
-% \begin{btSect}{6.refbib/livro}
-%  \subsection{Livros, capítulos de livros}
-%  \btPrintCited
-% \end{btSect}
-% \begin{btSect}{6.refbib/artigos}
-%  \subsection{Artigos}
-%  \btPrintCited
-% \end{btSect}
-% \begin{btSect}{6.refbib/teses}
-%  \subsection{Teses, dissertações e TCCs}
-%  \btPrintCited
-% \end{btSect}
-% \begin{btSect}{6.refbib/tecnicos}
-%  \subsection{Relatórios e documentos técnicos}
-%  \btPrintCited
-% \end{btSect}
-% \begin{btSect}{6.refbib/outros}
-%  \subsection{Outros}
-%  \btPrintCited
-% \end{btSect}
+% 	\begin{btSect}{6.refbib/primarias}
+%   \subsection{Fontes primárias}
+%   \btPrintCited
+%  \end{btSect}
+%  \begin{btSect}{6.refbib/legis}
+%   \subsection{Legislação}
+%   \btPrintCited
+%  \end{btSect}
+%  \begin{btSect}{6.refbib/livro}
+%   \subsection{Livros, capítulos de livros}
+%   \btPrintCited
+%  \end{btSect}
+%  \begin{btSect}{6.refbib/artigos}
+%   \subsection{Artigos}
+%   \btPrintCited
+%  \end{btSect}
+%  \begin{btSect}{6.refbib/teses}
+%   \subsection{Teses, dissertações e TCCs}
+%   \btPrintCited
+%  \end{btSect}
+%  \begin{btSect}{6.refbib/tecnicos}
+%   \subsection{Relatórios e documentos técnicos}
+%   \btPrintCited
+%  \end{btSect}
+%  \begin{btSect}{6.refbib/outros}
+%   \subsection{Outros}
+%   \btPrintCited
+%  \end{btSect}
 
 % ----------------------------------------------------------
 % Glossário
